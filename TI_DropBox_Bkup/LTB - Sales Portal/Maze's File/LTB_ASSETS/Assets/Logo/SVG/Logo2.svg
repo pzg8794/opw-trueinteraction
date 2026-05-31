@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="253px" height="60px" viewBox="0 0 253 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo1 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="29.5107018" cy="29.6362205" rx="29.5107018" ry="29.6362205"></ellipse>
+        <linearGradient x1="71.0028238%" y1="13.1908838%" x2="4.87640982%" y2="80.1398699%" id="linearGradient-3">
+            <stop stop-color="#91D1FF" offset="0%"></stop>
+            <stop stop-color="#2C86F0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.Logo&amp;Favicon" transform="translate(-897.000000, -303.000000)">
+            <g id="Logo1-Copy" transform="translate(897.000000, 303.000000)">
+                <text id="LifetimeBrands--" font-family="LucidaGrande, Lucida Grande" font-size="15.9599993" font-weight="normal" letter-spacing="-0.47880003" fill="#000000">
+                    <tspan x="74.3765655" y="22.9439987">LifetimeBrands</tspan>
+                    <tspan x="182.541719" y="22.9439987" font-family="GeezaPro, Geeza Pro">  </tspan>
+                </text>
+                <text id="SALES-PORTAL" font-family="LucidaGrande, Lucida Grande" font-size="26.8799972" font-weight="normal" line-spacing="25.3439995" letter-spacing="-0.460799977" fill="#000000">
+                    <tspan x="74.3765655" y="51.4789648">SALES</tspan>
+                    <tspan x="174.381645" y="50.6" font-family="GeezaPro, Geeza Pro"> </tspan>
+                    <tspan x="156.397192" y="51.4789648">PO</tspan>
+                    <tspan x="191.214963" y="51.4789648" letter-spacing="-2.22719995">R</tspan>
+                    <tspan x="205.984637" y="51.4789648" letter-spacing="-2.91839973">T</tspan>
+                    <tspan x="220.06311" y="51.4789648">AL</tspan>
+                </text>
+                <g id="Group" transform="translate(0.000000, 0.127559)">
+                    <g id="Path-144-+-Path-143-+-Path-142-+-Path-141-+-Path-140-+-Path-139-+-Path-145-Mask">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                        <path d="M30.6604694,28.6143347 L46.0654588,21.5536149 C46.0654588,21.5536149 57.0070076,24.0547547 60.6425036,28.6143346 C64.2779997,33.1739145 53.5341151,60.2512432 43.3421926,63.3336598 C33.1502701,66.4160765 30.6604694,28.6143347 30.6604694,28.6143347 Z" id="Path-144" fill="url(#linearGradient-3)" mask="url(#mask-2)"></path>
+                        <path d="M30.0455185,28.4815625 L45.7123174,28.7662086 L45.8852906,43.6821215 C45.8852906,43.6821215 46.6320074,54.7843548 34.2687816,62.0293448 C21.9055558,69.2743347 6.13209388,51.7940725 6.13209388,51.7940725 L30.0455185,28.4815625 Z" id="Path-143" fill="#286AB4" mask="url(#mask-2)"></path>
+                        <path d="M30.1132582,28.1048434 L32.1995292,42.9289091 C32.1995292,42.9289091 22.9198369,56.0053976 6.10734246,53.7252348 C-10.705152,51.4450719 -7.40232528,26.1722467 -7.40232528,26.1722467 L30.1132582,28.1048434 Z" id="Path-142" fill="url(#linearGradient-3)" mask="url(#mask-2)"></path>
+                        <path d="M29.7122678,28.9915551 L14.6750051,44.3834148 C14.6750051,44.3834148 2.32520552,44.7594481 -1.07682591,20.744311 C-4.47885734,-3.27082614 12.2627776,-3.07906387 12.2627776,-3.07906387 L30.8930211,-2.98692844 L29.7122678,28.9915551 Z" id="Path-141" fill="#286AB4" mask="url(#mask-2)"></path>
+                        <path d="M30.02192,28.1521478 L14.5831346,22.49129 C14.5831346,22.49129 8.08884901,8.42617745 19.2280596,0.691296373 C30.3672701,-7.0435847 45.4336224,-0.480995837 45.4336224,-0.480995837 L50.7667786,7.02017617 L30.02192,28.1521478 Z" id="Path-140" fill="url(#linearGradient-3)" mask="url(#mask-2)"></path>
+                        <path d="M46.3420827,22.3706901 L30.042391,12.3426618 C30.042391,12.3426618 37.4483923,3.91114678 49.5289231,5.61602667 C61.6094538,7.32090657 67.8706884,32.5917309 62.8627419,37.1018727 C57.3035815,26.9804582 46.3420827,22.3706901 46.3420827,22.3706901 Z" id="Path-139" fill="#286AB4" mask="url(#mask-2)"></path>
+                        <path d="M29.9301951,12.3163514 L14.171651,21.8340158 L13.7972112,44.3794797 L45.8588034,44.5218027 L46.191473,22.2602358 L29.9301951,12.3163514 Z" id="Path-145" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

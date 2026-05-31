@@ -18,6 +18,7 @@ This index keeps the directory navigable and points each item to its current rol
 - `chap10_slides.pdf` - File, 233.2 KB.
 - `Design Example.key` - File, 5.3 MB.
 - `DesignSketchV1.key` - File, 307.5 KB.
+- `Finance-Wires.key` - File, 750.9 KB.
 - `intro-dw3.ppt` - File, 1.1 MB.
 - `LTB Proforma FINAL Cliff.key` - File, 154.7 KB.
 - `LTB Proforma FINAL.key` - File, 6.9 MB.
@@ -29,10 +30,15 @@ This index keeps the directory navigable and points each item to its current rol
 - `LTB-SALES-WiresV5 copy.key` - File, 303.4 KB.
 - `LTB-SALES-WiresV5.key` - File, 423.3 KB.
 - `LTB-SALES-WiresV6 copy.key` - File, 753.2 KB.
+- `LTB-SALES-WiresV6--from-GUI-stuff.key` - File, 7.1 MB.
 - `LTB-SALES-WiresV6.key` - File, 7.2 MB.
+- `LTB-SALES-WiresV7--from-GUI-stuff.key` - File, 13.5 MB.
 - `LTB-SALES-WiresV7--from-LTB_Sales_Project-GUI.key` - File, 16.6 MB.
 - `LTB-SALES-WiresV7.key` - File, 16.6 MB.
+- `LTB-SALES-WiresV7.pptx` - File, 8.1 MB.
+- `Management-Wires.key` - File, 694.5 KB.
 - `NoFraudNewLogos.key` - File, 2.0 MB.
 - `Reseller Intro.pptx` - File, 859.3 KB.
+- `Sales-Wires.key` - File, 11.7 MB.
 - `Untitled 5.key` - File, 710.8 KB.
 - `Visual picking potential views.pptx` - File, 123.2 KB.

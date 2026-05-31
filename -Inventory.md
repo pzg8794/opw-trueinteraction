@@ -20,11 +20,11 @@ This index keeps the directory navigable and points each item to its current rol
 - `Understaing_Data/` - Directory containing related files for this portfolio item.
 - `.gitignore` - File, 116 B.
 - `databaseSchema.vsdx` - File, 47.6 KB.
-- `DRIVE_ONLY.md` - File, 2.8 KB.
+- `DRIVE_ONLY.md` - File, 3.8 KB.
 - `DRIVE_OVERVIEW.md` - File, 13.5 KB.
 - `IMPORT_NOTES.md` - File, 312 B.
 - `ModelIntegrationSystem.jpg` - File, 266.7 KB.
 - `Outline.vsdx` - File, 109.8 KB.
-- `OVERLEAF_PREP.md` - File, 10.6 KB.
+- `OVERLEAF_PREP.md` - File, 12.4 KB.
 - `Synaptik-Architecture.vsdx` - File, 647.7 KB.
 - `Synaptik.vsdx` - File, 86.8 KB.

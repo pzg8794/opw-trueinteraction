@@ -1,0 +1,11 @@
+Location,FC Markup,,Condition Code,Description,Type,,,Terms Days,Terms %,,Ticketing,FALSE
+US - Warehouse,0%,,ZLCP,Co-op Advertising,Contractual,,,15,0.5%,,Pick & Pack,FALSE
+US - POE,0%,,ZDFA,Defective,Contractual,,,30,1.0%,,,
+DIRECT,4%,,ZDNN,DNN (Do Not Notify),Non-contractual/discretionary,,,45,1.5%,,,
+,,,ZMKD,Markdown,Non-contractual/discretionary,,,60,2.0%,,,
+,,,ZRFT,Freight,Contractual,,,75,2.5%,,,
+,,,ZNSA,New Store,Contractual,,,90,3.0%,,,
+,,,ZSVC,Store Service,Contractual,,,,,,,
+,,,ZRB1,Bridal,Contractual,,,,,,,
+,,,ZRB2,Other,Non-contractual/discretionary,,,,,,,
+,,,ZVLR,Rebates,Contractual,,,,,,,

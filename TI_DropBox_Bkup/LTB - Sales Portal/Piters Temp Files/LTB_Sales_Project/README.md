@@ -5,4 +5,5 @@ This index keeps the directory navigable and points each item to its current rol
 
 ## Contents
 
+- `Data Analysis/` - Directory containing related files for this portfolio item.
 - `GUI/` - Directory containing related files for this portfolio item.

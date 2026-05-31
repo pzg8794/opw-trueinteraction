@@ -24,17 +24,24 @@ These were empty or README-only after importing GitHub-appropriate files. Check 
 - `TI_DropBox_Bkup/LTB - Sales Portal/DB Schema/Old Stuff/`
 - `TI_DropBox_Bkup/LTB - Sales Portal/DB Schema/PDFs/`
 - `TI_DropBox_Bkup/LTB - Sales Portal/IA/`
-- `TI_DropBox_Bkup/LTB - Sales Portal/Maze's File/LTB_ASSETS/Styleguide/`
 - `TI_DropBox_Bkup/LTB - Sales Portal/Maze's File/LTB_ASSETS/Styleguide/PDF/`
 - `TI_DropBox_Bkup/LTB - Sales Portal/Maze's File/Old/`
 - `TI_DropBox_Bkup/LTB - Sales Portal/Maze's File/Old/Font/`
 - `TI_DropBox_Bkup/LTB - Sales Portal/Maze's File/Old/Font/OpenType TTF Std/`
 - `TI_DropBox_Bkup/LTB - Sales Portal/Meeting Notes/`
-- `TI_DropBox_Bkup/LTB - Sales Portal/Piters Temp Files/LTB_Sales_Project/Data Analysis/`
+- `TI_DropBox_Bkup/LTB - Sales Portal/Piters Temp Files/LTB_Sales_Project/Data Analysis/Documentation/Provided/OTHERS/`
+- `TI_DropBox_Bkup/LTB - Sales Portal/Piters Temp Files/LTB_Sales_Project/Data Analysis/Documentation/Studied/`
+- `TI_DropBox_Bkup/LTB - Sales Portal/Piters Temp Files/LTB_Sales_Project/Data Analysis/Documentation/Studied/Modeling/`
 - `TI_DropBox_Bkup/LTB - Sales Portal/Piters Temp Files/LTB_Sales_Project/Introduction/`
-- `TI_DropBox_Bkup/LTB - Sales Portal/Piters Temp Files/Notes/`
+- `TI_DropBox_Bkup/LTB - Sales Portal/Piters Temp Files/LTB_Sales_Project/MileStones/`
+- `TI_DropBox_Bkup/LTB - Sales Portal/Piters Temp Files/LTB_Sales_Project/MileStones/Fifth Milestone/`
+- `TI_DropBox_Bkup/LTB - Sales Portal/Piters Temp Files/LTB_Sales_Project/MileStones/First Milestone/`
+- `TI_DropBox_Bkup/LTB - Sales Portal/Piters Temp Files/LTB_Sales_Project/System Dev/`
+- `TI_DropBox_Bkup/LTB - Sales Portal/Piters Temp Files/LTB_Sales_Project/System Dev/Milestone2/`
 - `TI_DropBox_Bkup/LTB - Sales Portal/Piters Temp Files/Notes/My_Notes/`
 - `TI_DropBox_Bkup/LTB - Sales Portal/Piters Temp Files/Notes/My_Notes/CSV Files/`
+- `TI_DropBox_Bkup/LTB - Sales Portal/Piters Temp Files/Notes/My_Notes/CSV Files/Planning/`
+- `TI_DropBox_Bkup/LTB - Sales Portal/Piters Temp Files/Notes/My_Notes/CSV Files/Proforma/`
 - `TI_DropBox_Bkup/LTB - Sales Portal/Piters Temp Files/Notes/PDFs/`
 - `TI_DropBox_Bkup/LTB-Warehouse/Research/`
 - `TI_DropBox_Bkup/LTB-Warehouse/Research/PicKnPack/`
@@ -42,6 +49,9 @@ These were empty or README-only after importing GitHub-appropriate files. Check 
 - `TI_DropBox_Bkup/NoFraud - Marketing Site/CurrentRepo/Backup2/home/`
 - `TI_DropBox_Bkup/NoFraud - Marketing Site/CurrentRepo/Backup3/home/`
 - `TI_DropBox_Bkup/NoFraud - Marketing Site/Liam's Files/Branding/`
+- `TI_DropBox_Bkup/NoFraud - Marketing Site/Maze's Files/ForDev/NoFraud_Phase2_Assets/`
+- `TI_DropBox_Bkup/NoFraud - Marketing Site/Maze's Files/ForDev/NoFraud_Phase2_Assets/1.Styleguide/`
+- `TI_DropBox_Bkup/NoFraud - Marketing Site/Maze's Files/ForDev/NoFraud_Phase2_Assets/1.Styleguide/PDF/`
 - `TI_DropBox_Bkup/NoFraud - Marketing Site/Notes/`
 - `TI_DropBox_Bkup/Normalization/`
 - `TI_DropBox_Bkup/Normalization/Results/`

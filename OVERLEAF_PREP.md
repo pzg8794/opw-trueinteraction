@@ -44,6 +44,7 @@ Paper, report, and presentation files imported into GitHub are grouped here for 
 - `reports/Data_Exploration--from-repo-TI-Formal-Reports.docx`
 - `reports/Data_Exploration--from-repo-TI-Formal-Reports.pdf`
 - `reports/Data_Exploration--from-repo-Understaing_Data.docx`
+- `reports/Data_Exploration--from-System-Dev-Milestone2.docx`
 - `reports/Data_Exploration.docx`
 - `reports/Data_Exploration.pdf`
 - `reports/datagathering.xlsx`
@@ -56,6 +57,8 @@ Paper, report, and presentation files imported into GitHub are grouped here for 
 - `reports/Doc Dec 30, 2015, 10-27 PM--from-Notes-PDFs.pdf`
 - `reports/Doc Dec 30, 2015, 10-27 PM.pdf`
 - `reports/Doc Jan 14, 2016, 9-47 PM.pdf`
+- `reports/Doc6.docx`
+- `reports/Doc6.pdf`
 - `reports/ds_extract.csv`
 - `reports/E-Commerce.docx`
 - `reports/edges.csv`
@@ -65,6 +68,7 @@ Paper, report, and presentation files imported into GitHub are grouped here for 
 - `reports/ExcessReport--from-LTB---Sales-Portal-Client-Artifacts.txt`
 - `reports/ExcessReport--from-My_Notes-CSV-Files.csv`
 - `reports/ExcessReport--from-Notes-My_Notes.txt`
+- `reports/ExcessReport--from-Provided-ITEM.txt`
 - `reports/ExcessReport.csv`
 - `reports/ExcessReport.pdf`
 - `reports/ExcessReport.txt`
@@ -90,6 +94,7 @@ Paper, report, and presentation files imported into GitHub are grouped here for 
 - `reports/kote548.txt`
 - `reports/LTB Sales Portal Functions Request--from-Understaing_Data-Analysis.docx`
 - `reports/LTB Sales Portal Functions Request.docx`
+- `reports/LTB Sales Portal-Requested Features--from-Documentation-Studied.docx`
 - `reports/LTB Sales Portal-Requested Features--from-LTB_Sales_Project-Introduction.docx`
 - `reports/LTB Sales Portal-Requested Features--from-TI_DropBox_Bkup-LTB---Sales-Portal.docx`
 - `reports/LTB Sales Portal-Requested Features.docx`
@@ -101,6 +106,8 @@ Paper, report, and presentation files imported into GitHub are grouped here for 
 - `reports/LTBSales_Report--from-Client-Artifacts-DOCUMENTATION.docx`
 - `reports/LTBSales_Report--from-LTB---Sales-Portal-DB-Schema.docx`
 - `reports/LTBSales_Report--from-LTB_Sales_Project-Data-Analysis.docx`
+- `reports/LTBSales_Report--from-Notes-System-UML-Diagrams.docx`
+- `reports/LTBSales_Report--from-Provided-OTHERS.docx`
 - `reports/LTBSales_Report.docx`
 - `reports/LTBSales_Report.pdf`
 - `reports/LTBSalesPortal_Styleguide.pdf`
@@ -114,6 +121,7 @@ Paper, report, and presentation files imported into GitHub are grouped here for 
 - `reports/MilestoneV-Report.pdf`
 - `reports/MOCA connection in vb dot net.rtf`
 - `reports/ModelIntegrationSystem.pdf`
+- `reports/MP.csv`
 - `reports/My main duty is to provide technical direction for the development.docx`
 - `reports/NetSciX_2016_Workshop.pdf`
 - `reports/New_SAP_Exports.txt`
@@ -136,6 +144,7 @@ Paper, report, and presentation files imported into GitHub are grouped here for 
 - `reports/Permissions_Based_System--from-LTB---Sales-Portal-DB-Schema.docx`
 - `reports/Permissions_Based_System--from-repo-TI-Formal-Reports.docx`
 - `reports/Permissions_Based_System--from-repo-Understaing_Data.docx`
+- `reports/Permissions_Based_System--from-System-Dev-Milestone2.docx`
 - `reports/Permissions_Based_System.docx`
 - `reports/Permissions_Based_System.pdf`
 - `reports/picknpack.csv`
@@ -144,17 +153,42 @@ Paper, report, and presentation files imported into GitHub are grouped here for 
 - `reports/PiterG.doc`
 - `reports/PiterGarciaCV.pdf`
 - `reports/PLANNING - Demand Solutions Data Extract - Initial Upload.csv`
+- `reports/PLANNING - DS-DE-IU-2015.csv`
+- `reports/PLANNING - DS-DE1115.csv`
+- `reports/PLANNING - TabFields.csv`
+- `reports/PLANNING -DS1115.csv`
+- `reports/PLANNING--from-CSV-Files-Planning.docx`
 - `reports/Planning--from-LTB_Sales_Project-Data-Analysis.docx`
 - `reports/Planning.docx`
 - `reports/PlanningDraft--from-Client-Artifacts-DOCUMENTATION.docx`
+- `reports/PlanningDraft--from-Provided-OTHERS.docx`
 - `reports/PlanningDraft.docx`
 - `reports/PLANNOGRAM 12FT KITCHENWARE CUTLERY INLINE 3-25-15_SD.pdf`
 - `reports/Privacy_Policy.txt`
 - `reports/Product_Text.txt`
 - `reports/Proforma - Almost Final2.xlsx`
+- `reports/PROFORMA - BP.csv`
 - `reports/PROFORMA - Cliff Proforma Example.pdf`
+- `reports/PROFORMA - CliffExample.csv`
+- `reports/PROFORMA - CliffExample2.csv`
+- `reports/PROFORMA - FExample.csv`
+- `reports/PROFORMA - FExample2.csv`
 - `reports/PROFORMA - Kmart Cutlery 2 and a half FT - MEGAN PROJECTIONS 11092015 (1).xlsx`
+- `reports/PROFORMA - Tabs Desc.csv`
 - `reports/PROFORMA - Template FY 2015.xls`
+- `reports/PROFORMA -- COMMISSIONS.csv`
+- `reports/PROFORMA -- REBATES - Condition Types.csv`
+- `reports/PROFORMA-1STKizmosColorECT.csv`
+- `reports/PROFORMA-KC2 FT-MP.csv`
+- `reports/PROFORMA-KC2.5 FT-MPcsv.csv`
+- `reports/PROFORMA-KC2FT2-MP.csv`
+- `reports/PROFORMA-RGrossZRSA12-2-15.csv`
+- `reports/PROFORMA-RRules ZSD039 12-2-15.csv`
+- `reports/PROFORMA-TempFY2015.csv`
+- `reports/PROFORMA-TKizmosColorEC .csv`
+- `reports/PROFORMA-TKizmosColorECT.csv`
+- `reports/PROFORMA.docx`
+- `reports/Progress_Report_MilestoneI.docx`
 - `reports/Progress_Report_MilestoneI.pdf`
 - `reports/Progress_Report_MilestoneII.pdf`
 - `reports/Progress_Report_MilestoneIII.pdf`
@@ -172,13 +206,16 @@ Paper, report, and presentation files imported into GitHub are grouped here for 
 - `reports/Rplot26.pdf`
 - `reports/SampleSystemFlow.pdf`
 - `reports/Sell--from-Client-Artifacts-DOCUMENTATION.docx`
+- `reports/Sell--from-Provided-OTHERS.docx`
 - `reports/Sell.docx`
 - `reports/Set up_process.txt`
 - `reports/SKM_C654e16060702520.pdf`
 - `reports/Slipsheet Loads (Autosaved).docx`
 - `reports/Standard Operating Procedure Detail revised 052016.doc`
 - `reports/Strategy_Plan--from-repo-Understaing_Data.docx`
+- `reports/Strategy_Plan--from-System-Dev-Milestone2.docx`
 - `reports/Strategy_Plan.docx`
+- `reports/Styleguide.pdf`
 - `reports/Synaptik Sample.docx`
 - `reports/Synaptik.pdf`
 - `reports/SystemFlowV1.pdf`
@@ -250,6 +287,7 @@ Paper, report, and presentation files imported into GitHub are grouped here for 
 - `presentations/chap10_slides.pdf`
 - `presentations/Design Example.key`
 - `presentations/DesignSketchV1.key`
+- `presentations/Finance-Wires.key`
 - `presentations/intro-dw3.ppt`
 - `presentations/LTB Proforma FINAL Cliff.key`
 - `presentations/LTB Proforma FINAL.key`
@@ -261,10 +299,15 @@ Paper, report, and presentation files imported into GitHub are grouped here for 
 - `presentations/LTB-SALES-WiresV5 copy.key`
 - `presentations/LTB-SALES-WiresV5.key`
 - `presentations/LTB-SALES-WiresV6 copy.key`
+- `presentations/LTB-SALES-WiresV6--from-GUI-stuff.key`
 - `presentations/LTB-SALES-WiresV6.key`
+- `presentations/LTB-SALES-WiresV7--from-GUI-stuff.key`
 - `presentations/LTB-SALES-WiresV7--from-LTB_Sales_Project-GUI.key`
 - `presentations/LTB-SALES-WiresV7.key`
+- `presentations/LTB-SALES-WiresV7.pptx`
+- `presentations/Management-Wires.key`
 - `presentations/NoFraudNewLogos.key`
 - `presentations/Reseller Intro.pptx`
+- `presentations/Sales-Wires.key`
 - `presentations/Untitled 5.key`
 - `presentations/Visual picking potential views.pptx`

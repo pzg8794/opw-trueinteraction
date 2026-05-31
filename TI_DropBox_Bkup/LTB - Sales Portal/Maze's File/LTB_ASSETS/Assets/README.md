@@ -6,3 +6,5 @@ This index keeps the directory navigable and points each item to its current rol
 ## Contents
 
 - `Design(WIP)/` - Directory containing related files for this portfolio item.
+- `Icons/` - Directory containing related files for this portfolio item.
+- `Logo/` - Directory containing related files for this portfolio item.

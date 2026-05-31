@@ -28,6 +28,7 @@ This index keeps the directory navigable and points each item to its current rol
 - `Data_Exploration--from-repo-TI-Formal-Reports.docx` - File, 3.0 MB.
 - `Data_Exploration--from-repo-TI-Formal-Reports.pdf` - File, 1.7 MB.
 - `Data_Exploration--from-repo-Understaing_Data.docx` - File, 3.0 MB.
+- `Data_Exploration--from-System-Dev-Milestone2.docx` - File, 3.0 MB.
 - `Data_Exploration.docx` - File, 3.0 MB.
 - `Data_Exploration.pdf` - File, 1.5 MB.
 - `datagathering.xlsx` - File, 12.7 KB.
@@ -40,6 +41,8 @@ This index keeps the directory navigable and points each item to its current rol
 - `Doc Dec 30, 2015, 10-27 PM--from-Notes-PDFs.pdf` - File, 2.5 MB.
 - `Doc Dec 30, 2015, 10-27 PM.pdf` - File, 2.5 MB.
 - `Doc Jan 14, 2016, 9-47 PM.pdf` - File, 6.0 MB.
+- `Doc6.docx` - File, 627.4 KB.
+- `Doc6.pdf` - File, 599.6 KB.
 - `ds_extract.csv` - File, 43.0 MB.
 - `E-Commerce.docx` - File, 127.3 KB.
 - `edges.csv` - File, 3.1 KB.
@@ -49,6 +52,7 @@ This index keeps the directory navigable and points each item to its current rol
 - `ExcessReport--from-LTB---Sales-Portal-Client-Artifacts.txt` - File, 7.0 MB.
 - `ExcessReport--from-My_Notes-CSV-Files.csv` - File, 3.2 MB.
 - `ExcessReport--from-Notes-My_Notes.txt` - File, 7.0 MB.
+- `ExcessReport--from-Provided-ITEM.txt` - File, 7.0 MB.
 - `ExcessReport.csv` - File, 3.7 MB.
 - `ExcessReport.pdf` - File, 291.5 KB.
 - `ExcessReport.txt` - File, 7.3 MB.
@@ -74,6 +78,7 @@ This index keeps the directory navigable and points each item to its current rol
 - `kote548.txt` - File, 217.7 KB.
 - `LTB Sales Portal Functions Request--from-Understaing_Data-Analysis.docx` - File, 24.2 KB.
 - `LTB Sales Portal Functions Request.docx` - File, 15.3 KB.
+- `LTB Sales Portal-Requested Features--from-Documentation-Studied.docx` - File, 28.8 KB.
 - `LTB Sales Portal-Requested Features--from-LTB_Sales_Project-Introduction.docx` - File, 28.8 KB.
 - `LTB Sales Portal-Requested Features--from-TI_DropBox_Bkup-LTB---Sales-Portal.docx` - File, 28.8 KB.
 - `LTB Sales Portal-Requested Features.docx` - File, 24.2 KB.
@@ -85,6 +90,8 @@ This index keeps the directory navigable and points each item to its current rol
 - `LTBSales_Report--from-Client-Artifacts-DOCUMENTATION.docx` - File, 7.1 MB.
 - `LTBSales_Report--from-LTB---Sales-Portal-DB-Schema.docx` - File, 7.1 MB.
 - `LTBSales_Report--from-LTB_Sales_Project-Data-Analysis.docx` - File, 7.1 MB.
+- `LTBSales_Report--from-Notes-System-UML-Diagrams.docx` - File, 7.6 MB.
+- `LTBSales_Report--from-Provided-OTHERS.docx` - File, 7.1 MB.
 - `LTBSales_Report.docx` - File, 7.1 MB.
 - `LTBSales_Report.pdf` - File, 3.4 MB.
 - `LTBSalesPortal_Styleguide.pdf` - File, 19.5 MB.
@@ -98,6 +105,7 @@ This index keeps the directory navigable and points each item to its current rol
 - `MilestoneV-Report.pdf` - File, 1.4 MB.
 - `MOCA connection in vb dot net.rtf` - File, 2.4 KB.
 - `ModelIntegrationSystem.pdf` - File, 1.6 MB.
+- `MP.csv` - File, 3.2 KB.
 - `My main duty is to provide technical direction for the development.docx` - File, 16.5 KB.
 - `NetSciX_2016_Workshop.pdf` - File, 2.0 MB.
 - `New_SAP_Exports.txt` - File, 434 B.
@@ -120,6 +128,7 @@ This index keeps the directory navigable and points each item to its current rol
 - `Permissions_Based_System--from-LTB---Sales-Portal-DB-Schema.docx` - File, 2.3 MB.
 - `Permissions_Based_System--from-repo-TI-Formal-Reports.docx` - File, 2.3 MB.
 - `Permissions_Based_System--from-repo-Understaing_Data.docx` - File, 1.9 MB.
+- `Permissions_Based_System--from-System-Dev-Milestone2.docx` - File, 1.9 MB.
 - `Permissions_Based_System.docx` - File, 1.9 MB.
 - `Permissions_Based_System.pdf` - File, 989.3 KB.
 - `picknpack.csv` - File, 14.4 MB.
@@ -128,17 +137,42 @@ This index keeps the directory navigable and points each item to its current rol
 - `PiterG.doc` - File, 68.0 KB.
 - `PiterGarciaCV.pdf` - File, 76.6 KB.
 - `PLANNING - Demand Solutions Data Extract - Initial Upload.csv` - File, 43.0 MB.
+- `PLANNING - DS-DE-IU-2015.csv` - File, 43.0 MB.
+- `PLANNING - DS-DE1115.csv` - File, 5.5 MB.
+- `PLANNING - TabFields.csv` - File, 2.7 KB.
+- `PLANNING -DS1115.csv` - File, 15.5 MB.
+- `PLANNING--from-CSV-Files-Planning.docx` - File, 15.3 KB.
 - `Planning--from-LTB_Sales_Project-Data-Analysis.docx` - File, 185.1 KB.
 - `Planning.docx` - File, 183.2 KB.
 - `PlanningDraft--from-Client-Artifacts-DOCUMENTATION.docx` - File, 185.8 KB.
+- `PlanningDraft--from-Provided-OTHERS.docx` - File, 185.8 KB.
 - `PlanningDraft.docx` - File, 183.2 KB.
 - `PLANNOGRAM 12FT KITCHENWARE CUTLERY INLINE 3-25-15_SD.pdf` - File, 962.8 KB.
 - `Privacy_Policy.txt` - File, 3.9 KB.
 - `Product_Text.txt` - File, 18.2 MB.
 - `Proforma - Almost Final2.xlsx` - File, 490.5 KB.
+- `PROFORMA - BP.csv` - File, 4.8 KB.
 - `PROFORMA - Cliff Proforma Example.pdf` - File, 295.1 KB.
+- `PROFORMA - CliffExample.csv` - File, 4.4 KB.
+- `PROFORMA - CliffExample2.csv` - File, 4.4 KB.
+- `PROFORMA - FExample.csv` - File, 758 B.
+- `PROFORMA - FExample2.csv` - File, 731 B.
 - `PROFORMA - Kmart Cutlery 2 and a half FT - MEGAN PROJECTIONS 11092015 (1).xlsx` - File, 292.5 KB.
+- `PROFORMA - Tabs Desc.csv` - File, 621 B.
 - `PROFORMA - Template FY 2015.xls` - File, 89.0 KB.
+- `PROFORMA -- COMMISSIONS.csv` - File, 4.2 MB.
+- `PROFORMA -- REBATES - Condition Types.csv` - File, 373 B.
+- `PROFORMA-1STKizmosColorECT.csv` - File, 21.5 KB.
+- `PROFORMA-KC2 FT-MP.csv` - File, 175.5 KB.
+- `PROFORMA-KC2.5 FT-MPcsv.csv` - File, 2.2 KB.
+- `PROFORMA-KC2FT2-MP.csv` - File, 176.1 KB.
+- `PROFORMA-RGrossZRSA12-2-15.csv` - File, 93.3 KB.
+- `PROFORMA-RRules ZSD039 12-2-15.csv` - File, 255.8 KB.
+- `PROFORMA-TempFY2015.csv` - File, 10.5 KB.
+- `PROFORMA-TKizmosColorEC .csv` - File, 24.4 KB.
+- `PROFORMA-TKizmosColorECT.csv` - File, 3.6 KB.
+- `PROFORMA.docx` - File, 32.2 KB.
+- `Progress_Report_MilestoneI.docx` - File, 631.4 KB.
 - `Progress_Report_MilestoneI.pdf` - File, 906.7 KB.
 - `Progress_Report_MilestoneII.pdf` - File, 1.0 MB.
 - `Progress_Report_MilestoneIII.pdf` - File, 1.7 MB.
@@ -156,13 +190,16 @@ This index keeps the directory navigable and points each item to its current rol
 - `Rplot26.pdf` - File, 145.4 KB.
 - `SampleSystemFlow.pdf` - File, 206.4 KB.
 - `Sell--from-Client-Artifacts-DOCUMENTATION.docx` - File, 10.8 KB.
+- `Sell--from-Provided-OTHERS.docx` - File, 10.8 KB.
 - `Sell.docx` - File, 19.2 KB.
 - `Set up_process.txt` - File, 617 B.
 - `SKM_C654e16060702520.pdf` - File, 340.7 KB.
 - `Slipsheet Loads (Autosaved).docx` - File, 1.2 MB.
 - `Standard Operating Procedure Detail revised 052016.doc` - File, 149.5 KB.
 - `Strategy_Plan--from-repo-Understaing_Data.docx` - File, 306.3 KB.
+- `Strategy_Plan--from-System-Dev-Milestone2.docx` - File, 244.9 KB.
 - `Strategy_Plan.docx` - File, 562.2 KB.
+- `Styleguide.pdf` - File, 17.3 MB.
 - `Synaptik Sample.docx` - File, 2.0 MB.
 - `Synaptik.pdf` - File, 1.9 MB.
 - `SystemFlowV1.pdf` - File, 53.1 KB.

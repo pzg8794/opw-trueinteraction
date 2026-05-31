@@ -1,0 +1,11 @@
+Condition Code,Description,
+ZLCP,Co-op Advertising,Contractual
+ZDFA,Defective,Contractual
+ZDNN,DNN (Do Not Notify),Non-contractual/discretionary
+ZMKD,Markdown,Non-contractual/discretionary
+ZRFT,Freight,Contractual
+ZNSA,New Store,Contractual
+ZSVC,Store Service,Contractual
+ZRB1,Bridal,Contractual
+ZRB2,Other,Non-contractual/discretionary
+ZVLR,Rebates,Contractual
