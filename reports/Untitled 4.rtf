@@ -1,0 +1,85 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf340
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 // Home Display\
+script.\
+	function SubmitForm()\{ document.forms["integrateForm"].submit();\}\
+.container\
+	.row(ng-if="AuthCheck.userid == 0")\
+		.col-lg-6\
+			a(href='/#/')\
+				img.header-logo(src='/images/Impactly_logo_teal.png', alt='Impactly')\
+			ul.header-nav.home\
+				li\
+					a(href='#/science') \
+						span(ng-class="\{'active': section == 'science'\}") The Science\
+				li\
+					a(href='#/apps') \
+						span(ng-class="\{'active': section == 'apps'\}") Apps\
+				li\
+					a(href='#/upgrade') \
+						span(ng-class="\{'active': section == 'upgrade'\}") Courses\
+				li\
+					a(href='#/about') \
+						span(ng-class="\{'active': section == 'about'\}") About\
+				li\
+					a(href='#/help') \
+						span(ng-class="\{'active': section == 'help'\}") Help\
+				li\
+					a(href='http://blog.impactly.com') \
+						span Blog\
+		.col-lg-6\
+			ul.header-nav-right\
+				li\
+					a(href="#/apps")\
+						.btn-login Connect an App\
+				li\
+					a.btn-request(href='#/request') Request a Demo\
+				li\
+					.btn-phone 1 (877) 33IMPACT\
+	.row(ng-if="AuthCheck.userid > 0")\
+		.col-lg-7\
+			a(href='/#/')\
+				img.header-logo(src='/images/Impactly_logo_teal.png', alt='Impactly Logo')\
+			ul.header-nav\
+				li\
+					a(href='#/score')\
+						span(ng-class="\{'active': section == 'score'\}") Score \
+						badge-color(ng-bind="user.score" color='\{\{user.score\}\}', badge)\
+				li\
+					//- person 941 is used as a placeholder - TODO: Change to person var\
+					a(href='#/person/\{\{user.id\}\}/suggestions')\
+						span(ng-class="\{'active': section == 'suggest'\}") Suggestions \
+						span.num (5)\
+				li\
+					a(href='#/courses')\
+						span(ng-class="\{'active': section == 'courses'\}") Courses \
+						span.num (30)\
+				//-		\
+					li\
+						span Team \
+						span.num (4,122)\
+				li\
+					a(href='#/apps')\
+						span(ng-class="\{'active': section == 'apps'\}") Apps \
+						span.num(ng-if="deployType('dmo')") (4)\
+						span.num(ng-if="!deployType('dmo')") (1)\
+		.col-lg-5\
+			ul.header-nav-right\
+				li(ng-show2="!user.id")\
+					a.btn-logout(ng-click='logout();') Logout\
+				li(ng-show2="!user.id" ng-class="\{'active': section == 'help'\}")\
+					a.btn-help(href='/#help') Help\
+				li(ng-show2="!user.id")\
+					a.btn-username(href='/#account' ng-class="\{'active': section == 'account'\}") \
+						img.img-circle.small-profile-img(ng-bind="user.displayName" ng-src='\{\{user.logo\}\}')\
+						| \{\{user.displayName\}\}\
+					\
+					\
+				//-\
+					li(ng-show2="!user.id")\
+						a.btn-admin(href='https://impactly.com/admins/sign_in') Admin\
+}

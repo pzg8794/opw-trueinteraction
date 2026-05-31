@@ -1,0 +1,77 @@
+id,block,block.type,block.name,block.capacity
+A1,block0,part0,officex,0
+A2,block0,part1,officex,0
+A3,block0,part2,officex,0
+A4,block0,part3,officex,0
+A5,N/A,N/A,N/A,0
+A6,N/A,N/A,N/A,0
+A7,N/A,N/A,N/A,0
+A8,N/A,N/A,N/A,0
+A9,block1,part8,s/r door1,0
+A10,block1,part9,s/r door2,0
+A11,block1,part10,s/r door3,0
+A12,N/A,N/A,N/A,0
+A13,N/A,N/A,N/A,0
+A14,block2,part13,s/r door1,0
+A15,block2,part14,s/r door2,0
+A16,block2,part15,s/r door3,0
+A17,block2,part16,s/r door4,0
+A18,block2,part17,s/r door5,0
+A19,block2,part18,r door1,0
+A20,block2,part19,r door2,0
+A21,block2&3,part20,r door3,0
+A22,block2&3,part21,r door4,0
+A23,N/A,N/A,N/A,0
+A24,N/A,N/A,N/A,0
+A25,N/A,N/A,N/A,0
+A26,N/A,N/A,N/A,0
+A27,N/A,N/A,N/A,0
+A28,N/A,N/A,N/A,0
+A29,N/A,N/A,N/A,0
+A30,N/A,N/A,N/A,0
+A31,N/A,N/A,N/A,0
+A32,block4,part31,r door1,0
+A33,block4,part32,r door2,0
+A34,block4,part33,r door3,0
+A35,N/A,N/A,N/A,0
+A36,N/A,N/A,N/A,0
+A37,N/A,N/A,N/A,0
+A38,N/A,N/A,N/A,0
+B1,blocks0-3/blackblue,part0,receiving,0
+B2,blocks0-3/blackblue,part1,receiving,0
+B3,blocks0-3/blackblue,part2,receiving,0
+B4,blocks0-3/blackblue,part3,receiving,0
+B5,blocks0-3/blackblue,part4,receiving,0
+B6,blocks0-3/blackblue,part5,receiving,0
+B7,blocks0-3/blackblue,part6,receiving,0
+B8,blocks0-3/blackblue,part7,receiving,0
+B9,blocks0-3/blackblue,part8,receiving,0
+B10,blocks0-3/blackblue,part9,receiving,0
+B11,blocks0-3/blackblue,part10,receiving,0
+B12,blocks0-3/blackblue,part11,receiving,0
+B13,blocks0-3/blackblue,part12,receiving,0
+B14,blocks0-3/blackblue,part13,receiving,0
+B15,blocks0-3/blackblue,part14,receiving,0
+B16,blocks0-3/blackblue,part15,receiving,0
+B17,blocks0-3/blackblue,part16,receiving,0
+B18,blocks0-3/blackblue,part17,receiving,0
+B19,blocks0-3/blackblue,part18,receiving,0
+B20,blocks0-3/blackblue,part19,receiving,0
+B21,blocks0-3/blackblue,part20,receiving,0
+B22,blocks0-3/blackblue,part21,receiving,0
+B23,block3/blue*,part22,returns/SHR,0
+B24,block3/blue*,part23,returns/SHR,0
+B25,block3/blue*,part24,returns/SHR,0
+B26,block3/pink,part25,pack & hold,0
+B27,block3/pink,part26,pack & hold,0
+B28,block3/pink,part27,pack & hold,0
+B29,block4/blackblue,part28,cart reserve,0
+B30,block4/blackblue,part29,cart reserve,0
+B31,block4/blackblue,part30,cart reserve,0
+B32,block4/blackblue,part31,cart reserve,0
+B33,block4/blackblue,part32,cart reserve,0
+B34,block4/blackblue,part33,cart reserve,0
+B35,block4/blackblue,part34,cart reserve,0
+B36,block4/blackblue,part35,cart reserve/electrical room,0
+B37,block4/black*,part36,electrical room,0
+B38,block4/black*,part37,electrical room,0

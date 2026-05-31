@@ -1,0 +1,220 @@
+<!-- AUTO-GENERATED-PORTFOLIO-README -->
+# reports
+
+This index keeps the directory navigable and points each item to its current role.
+
+## Contents
+
+- ` MATERIAL RECORD - zmmtest1_19may2015 (Autosaved).csv` - File, 22.2 MB.
+- `01-14-2015.pdf` - File, 831.5 KB.
+- `0840037031_209383.doc` - File, 54.5 KB.
+- `128175 Lifetime Host Interface Specification with pickdownloadack.docx` - File, 505.4 KB.
+- `128175 Lifetime Software Functional Specification.docx` - File, 3.8 MB.
+- `370_46465_EY325_2012_1_2_1_1_Budgeting II.docx` - File, 4.9 MB.
+- `Academic Training Dept request template.doc` - File, 27.0 KB.
+- `AllNotes--from-Notes-PDFs.pdf` - File, 20.6 MB.
+- `AllNotes.pdf` - File, 20.6 MB.
+- `Architecture.pdf` - File, 3.1 MB.
+- `Cliff Proforma Example.csv` - File, 4.1 KB.
+- `course02.docx` - File, 64.5 KB.
+- `Customers.txt` - File, 7.2 MB.
+- `DAILY EXTRACT FROM TOOL TO DS.TXT` - File, 6.3 MB.
+- `DAILY IMPORT FROM DS TO TOOL.TXT` - File, 16.2 MB.
+- `Data Analysis.docx` - File, 15.9 KB.
+- `Data Mining Practical Machine Learning Tools and Techniques 3rd Edition-Mantesh.pdf` - File, 6.7 MB.
+- `data_dictionary.txt` - File, 823 B.
+- `Data_Exploration--from-DB-Schema-PDFs.pdf` - File, 1.7 MB.
+- `Data_Exploration--from-LTB---Sales-Portal-DB-Schema.docx` - File, 3.0 MB.
+- `Data_Exploration--from-repo-TI-Formal-Reports.docx` - File, 3.0 MB.
+- `Data_Exploration--from-repo-TI-Formal-Reports.pdf` - File, 1.7 MB.
+- `Data_Exploration--from-repo-Understaing_Data.docx` - File, 3.0 MB.
+- `Data_Exploration.docx` - File, 3.0 MB.
+- `Data_Exploration.pdf` - File, 1.5 MB.
+- `datagathering.xlsx` - File, 12.7 KB.
+- `Dataset1-Media-Example-EDGES.csv` - File, 1.1 KB.
+- `Dataset1-Media-Example-NODES.csv` - File, 512 B.
+- `Dataset2-Media-User-Example-EDGES.csv` - File, 532 B.
+- `Dataset2-Media-User-Example-NODES.csv` - File, 640 B.
+- `Doc Dec 04, 2015, 1313.pdf` - File, 8.2 MB.
+- `Doc Dec 30, 2015, 10-27 PM (1).pdf` - File, 2.5 MB.
+- `Doc Dec 30, 2015, 10-27 PM--from-Notes-PDFs.pdf` - File, 2.5 MB.
+- `Doc Dec 30, 2015, 10-27 PM.pdf` - File, 2.5 MB.
+- `Doc Jan 14, 2016, 9-47 PM.pdf` - File, 6.0 MB.
+- `ds_extract.csv` - File, 43.0 MB.
+- `E-Commerce.docx` - File, 127.3 KB.
+- `edges.csv` - File, 3.1 KB.
+- `edges1.csv` - File, 620 B.
+- `edges2.csv` - File, 20 B.
+- `edges3.csv` - File, 3.3 KB.
+- `ExcessReport--from-LTB---Sales-Portal-Client-Artifacts.txt` - File, 7.0 MB.
+- `ExcessReport--from-My_Notes-CSV-Files.csv` - File, 3.2 MB.
+- `ExcessReport--from-Notes-My_Notes.txt` - File, 7.0 MB.
+- `ExcessReport.csv` - File, 3.7 MB.
+- `ExcessReport.pdf` - File, 291.5 KB.
+- `ExcessReport.txt` - File, 7.3 MB.
+- `FCS HISTORY.TXT` - File, 6.4 MB.
+- `Fon Detail Pick Area.doc` - File, 167.0 KB.
+- `Fontana DC 7-16-13.pdf` - File, 935.0 KB.
+- `Fontana Detail Piece Pick Pictures.doc` - File, 1.2 MB.
+- `Forecast History Saves.docx` - File, 107.2 KB.
+- `hungarian.data.processed.csv` - File, 10.0 KB.
+- `Hungarian_j48_results_decimal_10.txt` - File, 1.9 KB.
+- `Hungarian_j48_results_decimal_e.txt` - File, 2.0 KB.
+- `Hungarian_j48_results_minmax.txt` - File, 1.8 KB.
+- `Hungarian_j48_results_unnormalized.txt` - File, 1.7 KB.
+- `Impactly Machine Learning Strategy.pdf` - File, 5.5 MB.
+- `INITIAL UPLOAD--from-PLANNING-Updated-Datafiles-as-of-20160224.TXT` - File, 61.4 MB.
+- `INITIAL UPLOAD.TXT` - File, 3.1 MB.
+- `insticator sample.odt` - File, 245.9 KB.
+- `ITEM - STATUS – products lifecycle status.txt` - File, 135 B.
+- `knop.csv` - File, 3.1 MB.
+- `kote504.txt` - File, 20.3 KB.
+- `kote545.txt` - File, 183.6 KB.
+- `kote546.txt` - File, 51.1 KB.
+- `kote548.txt` - File, 217.7 KB.
+- `LTB Sales Portal Functions Request--from-Understaing_Data-Analysis.docx` - File, 24.2 KB.
+- `LTB Sales Portal Functions Request.docx` - File, 15.3 KB.
+- `LTB Sales Portal-Requested Features--from-LTB_Sales_Project-Introduction.docx` - File, 28.8 KB.
+- `LTB Sales Portal-Requested Features--from-TI_DropBox_Bkup-LTB---Sales-Portal.docx` - File, 28.8 KB.
+- `LTB Sales Portal-Requested Features.docx` - File, 24.2 KB.
+- `LTB-SALES-WiresV6.pdf` - File, 345.7 KB.
+- `LTB-SALES-WiresV7--from-LTB_Sales_Project-GUI.pdf` - File, 1.4 MB.
+- `LTB-SALES-WiresV7.pdf` - File, 892.7 KB.
+- `LTBnotes.txt` - File, 1.1 KB.
+- `LTBSales.pdf` - File, 3.4 MB.
+- `LTBSales_Report--from-Client-Artifacts-DOCUMENTATION.docx` - File, 7.1 MB.
+- `LTBSales_Report--from-LTB---Sales-Portal-DB-Schema.docx` - File, 7.1 MB.
+- `LTBSales_Report--from-LTB_Sales_Project-Data-Analysis.docx` - File, 7.1 MB.
+- `LTBSales_Report.docx` - File, 7.1 MB.
+- `LTBSales_Report.pdf` - File, 3.4 MB.
+- `LTBSalesPortal_Styleguide.pdf` - File, 19.5 MB.
+- `LTBSalesProtal_Styleguide.pdf` - File, 19.5 MB.
+- `LTBSP Current Status.pdf` - File, 492.9 KB.
+- `LTBSP M4 Progress.pdf` - File, 809.2 KB.
+- `LTBSP M5 Comprehensive Progress Report.pdf` - File, 641.8 KB.
+- `MATERIAL RECORD - zmmtest1_19may2015 (Autosaved).csv` - File, 22.1 MB.
+- `MilestoneIV-Report.pdf` - File, 1.3 MB.
+- `MilestoneV-Report.docx` - File, 1.6 MB.
+- `MilestoneV-Report.pdf` - File, 1.4 MB.
+- `MOCA connection in vb dot net.rtf` - File, 2.4 KB.
+- `ModelIntegrationSystem.pdf` - File, 1.6 MB.
+- `My main duty is to provide technical direction for the development.docx` - File, 16.5 KB.
+- `NetSciX_2016_Workshop.pdf` - File, 2.0 MB.
+- `New_SAP_Exports.txt` - File, 434 B.
+- `nodes.csv` - File, 2.5 KB.
+- `nodes1.csv` - File, 1.6 KB.
+- `nodes2.csv` - File, 925 B.
+- `NoFraud Website Strategy__Final.pdf` - File, 1.7 MB.
+- `NoFraudNewLogos.pdf` - File, 1.5 MB.
+- `notes (Anthony Castiglia's conflicted copy 2014-04-03).txt` - File, 1.0 KB.
+- `Notes-Dec-17,-2015.pdf` - File, 5.4 MB.
+- `notes.txt` - File, 1.1 KB.
+- `NotesDec-17-2015--from-Notes-PDFs.pdf` - File, 6.6 MB.
+- `NotesDec-17-2015.pdf` - File, 6.6 MB.
+- `PDSLongText.txt` - File, 6.4 MB.
+- `PDSLongTextTest.txt` - File, 6.3 MB.
+- `PDSMaterialsTest.txt` - File, 13.9 KB.
+- `Performance.pdf` - File, 114.2 KB.
+- `Permissions - Cliff.docx` - File, 113.9 KB.
+- `Permissions_Based_System (Piter Garcia's conflicted copy 2016-01-13).docx` - File, 1.9 MB.
+- `Permissions_Based_System--from-LTB---Sales-Portal-DB-Schema.docx` - File, 2.3 MB.
+- `Permissions_Based_System--from-repo-TI-Formal-Reports.docx` - File, 2.3 MB.
+- `Permissions_Based_System--from-repo-Understaing_Data.docx` - File, 1.9 MB.
+- `Permissions_Based_System.docx` - File, 1.9 MB.
+- `Permissions_Based_System.pdf` - File, 989.3 KB.
+- `picknpack.csv` - File, 14.4 MB.
+- `Piter Updated Academic Training.pdf` - File, 112.9 KB.
+- `Piter+Garcia+CV.doc` - File, 76.5 KB.
+- `PiterG.doc` - File, 68.0 KB.
+- `PiterGarciaCV.pdf` - File, 76.6 KB.
+- `PLANNING - Demand Solutions Data Extract - Initial Upload.csv` - File, 43.0 MB.
+- `Planning--from-LTB_Sales_Project-Data-Analysis.docx` - File, 185.1 KB.
+- `Planning.docx` - File, 183.2 KB.
+- `PlanningDraft--from-Client-Artifacts-DOCUMENTATION.docx` - File, 185.8 KB.
+- `PlanningDraft.docx` - File, 183.2 KB.
+- `PLANNOGRAM 12FT KITCHENWARE CUTLERY INLINE 3-25-15_SD.pdf` - File, 962.8 KB.
+- `Privacy_Policy.txt` - File, 3.9 KB.
+- `Product_Text.txt` - File, 18.2 MB.
+- `Proforma - Almost Final2.xlsx` - File, 490.5 KB.
+- `PROFORMA - Cliff Proforma Example.pdf` - File, 295.1 KB.
+- `PROFORMA - Kmart Cutlery 2 and a half FT - MEGAN PROJECTIONS 11092015 (1).xlsx` - File, 292.5 KB.
+- `PROFORMA - Template FY 2015.xls` - File, 89.0 KB.
+- `Progress_Report_MilestoneI.pdf` - File, 906.7 KB.
+- `Progress_Report_MilestoneII.pdf` - File, 1.0 MB.
+- `Progress_Report_MilestoneIII.pdf` - File, 1.7 MB.
+- `Project_Outline--from-LTB_Sales_Project-Introduction.docx` - File, 21.8 KB.
+- `Project_Outline--from-TI_DropBox_Bkup-LTB---Sales-Portal.docx` - File, 19.8 KB.
+- `Project_Outline.docx` - File, 19.6 KB.
+- `Project_Outline.pdf` - File, 235.6 KB.
+- `Project_Overview--from-LTB_Sales_Project-Introduction.docx` - File, 1.1 MB.
+- `Project_Overview--from-TI_DropBox_Bkup-LTB---Sales-Portal.docx` - File, 1.1 MB.
+- `Project_Overview.docx` - File, 1.1 MB.
+- `Project_Overview.pdf` - File, 822.2 KB.
+- `ProximaNovaSupplementGuide.pdf` - File, 85.6 KB.
+- `retailers--from-LTB---Sales-Portal-data.txt` - File, 6.9 MB.
+- `retailers.txt` - File, 7.7 MB.
+- `Rplot26.pdf` - File, 145.4 KB.
+- `SampleSystemFlow.pdf` - File, 206.4 KB.
+- `Sell--from-Client-Artifacts-DOCUMENTATION.docx` - File, 10.8 KB.
+- `Sell.docx` - File, 19.2 KB.
+- `Set up_process.txt` - File, 617 B.
+- `SKM_C654e16060702520.pdf` - File, 340.7 KB.
+- `Slipsheet Loads (Autosaved).docx` - File, 1.2 MB.
+- `Standard Operating Procedure Detail revised 052016.doc` - File, 149.5 KB.
+- `Strategy_Plan--from-repo-Understaing_Data.docx` - File, 306.3 KB.
+- `Strategy_Plan.docx` - File, 562.2 KB.
+- `Synaptik Sample.docx` - File, 2.0 MB.
+- `Synaptik.pdf` - File, 1.9 MB.
+- `SystemFlowV1.pdf` - File, 53.1 KB.
+- `SystemFlowV2.pdf` - File, 113.6 KB.
+- `SystemUI--from-LTB_Sales_Project-GUI.pdf` - File, 6.9 MB.
+- `SystemUI.docx` - File, 5.7 MB.
+- `SystemUI.pdf` - File, 6.9 MB.
+- `SystemUML and Flow Diagrams.pdf` - File, 495.0 KB.
+- `SystemUML.pdf` - File, 193.5 KB.
+- `SystemUMLnFlow Diagrams.pdf` - File, 456.5 KB.
+- `TeamSchema_20151209.pdf` - File, 73.5 KB.
+- `TeamStories_20151209.pdf` - File, 55.7 KB.
+- `temp.txt` - File, 38.1 KB.
+- `test.pdf` - File, 348.7 KB.
+- `TI HISTFCS 201501.TXT` - File, 6.4 MB.
+- `TI HISTFCS 201502.TXT` - File, 6.4 MB.
+- `TI HISTFCS 201503.TXT` - File, 6.4 MB.
+- `TI HISTFCS 201504.TXT` - File, 6.5 MB.
+- `TI HISTFCS 201505.TXT` - File, 6.5 MB.
+- `TI HISTFCS 201506.TXT` - File, 6.5 MB.
+- `TI HISTFCS 201507.TXT` - File, 6.9 MB.
+- `TI HISTFCS 201508.TXT` - File, 6.5 MB.
+- `TI HISTFCS 201509.TXT` - File, 6.5 MB.
+- `TI HISTFCS 201510.TXT` - File, 6.4 MB.
+- `TI HISTFCS 201511.TXT` - File, 6.5 MB.
+- `TI HISTFCS 201512.TXT` - File, 6.5 MB.
+- `TI HISTFCS 201601.TXT` - File, 6.4 MB.
+- `TI HISTFCS 201602.TXT` - File, 6.5 MB.
+- `UnderstandingSystem.docx` - File, 618.6 KB.
+- `UnderstandingTerms--from-LTB_Sales_Project-Data-Analysis.docx` - File, 618.6 KB.
+- `UnderstandingTerms--from-Understaing_Data-Analysis.docx` - File, 618.3 KB.
+- `UnderstandingTerms.docx` - File, 618.5 KB.
+- `Untitled 2.rtf` - File, 1.7 KB.
+- `Untitled 3.rtf` - File, 1.3 KB.
+- `Untitled 4.rtf` - File, 2.8 KB.
+- `Untitled 5.rtf` - File, 4.1 KB.
+- `Untitled 6.rtf` - File, 1.3 KB.
+- `Untitled 7.rtf` - File, 880 B.
+- `Untitled.rtf` - File, 5.0 KB.
+- `UpdatedSystemUML.pdf` - File, 469.1 KB.
+- `Warehouse--from-TI_DropBox_Bkup-LTB-Warehouse.docx` - File, 1.6 MB.
+- `Warehouse-Delivery.docx` - File, 154.7 KB.
+- `Warehouse-MachineLearning.docx` - File, 6.6 MB.
+- `Warehouse-MachineLearning.pdf` - File, 4.3 MB.
+- `Warehouse-PicKnPacK.docx` - File, 216.2 KB.
+- `Warehouse.docx` - File, 1.5 MB.
+- `WH-Data Analysis.pdf` - File, 2.7 MB.
+- `WireFrames-Demo1_Notes.rtf` - File, 4.1 KB.
+- `YCMR7_Extract.txt` - File, 4.4 MB.
+- `YCMS7.txt` - File, 10.0 MB.
+- `~$0_46465_EY325_2012_1_2_1_1_Budgeting II.docx` - File, 162 B.
+- `~$40037031_209383.doc` - File, 162 B.
+- `~$BSales_Report.docx` - File, 162 B.
+- `~$derstandingTerms.docx` - File, 162 B.
+- `~$Sell.docx` - File, 162 B.

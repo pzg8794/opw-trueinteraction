@@ -1,0 +1,42 @@
+<!-- AUTO-GENERATED-PORTFOLIO-README -->
+# PHOTOS
+
+This index keeps the directory navigable and points each item to its current role.
+
+## Contents
+
+- `FINAL PHOTOS/` - Directory containing related files for this portfolio item.
+- `ANTHONY-CDFX8741.JPG` - File, 14.1 MB.
+- `ANTHONY-CDFX8763.JPG` - File, 13.6 MB.
+- `ANTHONY-CDFX8794.JPG` - File, 12.4 MB.
+- `CDFX9587.JPG` - File, 4.4 MB.
+- `CDFX9594.JPG` - File, 4.4 MB.
+- `CDFX9622.JPG` - File, 4.0 MB.
+- `CDFX9634.JPG` - File, 3.9 MB.
+- `CDFX9635.JPG` - File, 3.9 MB.
+- `CDFX9706.JPG` - File, 5.3 MB.
+- `CDFX9770.JPG` - File, 3.6 MB.
+- `CDFX9788.JPG` - File, 3.6 MB.
+- `CDFX9810.JPG` - File, 3.7 MB.
+- `ISAAC&SHAYA-CDFX9031.JPG` - File, 12.9 MB.
+- `ISAAC&SHAYA-CDFX9032.JPG` - File, 13.4 MB.
+- `ISAAC&SHAYA-CDFX9044.JPG` - File, 12.9 MB.
+- `ISAAC-CDFX8859.JPG` - File, 14.3 MB.
+- `ISAAC-CDFX8923.JPG` - File, 14.7 MB.
+- `LIAM&ISAAC&SHAYA-CDFX9053.JPG` - File, 11.6 MB.
+- `LIAM&MICHAEL-CDFX8633.JPG` - File, 10.4 MB.
+- `LIAM&MICHAEL-CDFX8674.JPG` - File, 10.9 MB.
+- `LIAM&MICHAEL-CDFX8715.JPG` - File, 11.5 MB.
+- `LIAM-CDFX8618.JPG` - File, 10.9 MB.
+- `LIAM-CDFX9238.JPG` - File, 11.1 MB.
+- `MELANIE-CDFX8809.JPG` - File, 9.8 MB.
+- `MELANIE-CDFX8824.JPG` - File, 10.5 MB.
+- `MELANIE-CDFX8832.JPG` - File, 10.5 MB.
+- `MICHAEL-CDFX9091.JPG` - File, 15.5 MB.
+- `MICHAEL-CDFX9124.JPG` - File, 16.5 MB.
+- `PITER-CDFX9180.JPG` - File, 12.3 MB.
+- `PITER-CDFX9194.JPG` - File, 12.9 MB.
+- `PITER-CDFX9221.JPG` - File, 11.8 MB.
+- `SHAYA-CDFX8967.JPG` - File, 14.7 MB.
+- `SHAYA-CDFX8972.JPG` - File, 18.4 MB.
+- `SHAYA-CDFX8981.JPG` - File, 18.1 MB.

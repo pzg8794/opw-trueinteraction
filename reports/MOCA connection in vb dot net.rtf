@@ -1,0 +1,111 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww19640\viewh13660\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs26 \cf0 \expnd0\expndtw0\kerning0
+// Setting up a moca connection\'a0\'a0\'a0
+\fs30 \
+
+\fs26 Public Function getNewProdMocaConnection() As RedPrairie.MOCA.Client.FullConnection
+\fs30 \
+
+\fs26 \'a0\'a0\'a0 Dim comObj As RedPrairie.MOCA.Client.FullConnection = New RedPrairie.MOCA.Client.FullConnection
+\fs30 \
+
+\fs26 \'a0\'a0\'a0 Dim mocaServerIP As String = "172.16.1.43"
+\fs30 \
+
+\fs26 \'a0\'a0\'a0 Dim mocaServerPort As Short = 4600
+\fs30 \
+
+\fs26 \'a0\'a0\'a0 Dim mocaServerEnv As String = "dev"
+\fs30 \
+
+\fs26 \'a0\'a0\'a0 comObj.Connect("WMD1", mocaServerIP, mocaServerPort, mocaServerEnv, False)
+\fs30 \
+
+\fs26 \'a0
+\fs30 \
+
+\fs26 \'a0\'a0\'a0 Return comObj
+\fs30 \
+
+\fs26 End Function
+\fs30 \
+
+\fs26 \'a0
+\fs30 \
+
+\fs26 // Example of using Moca Connection to retreive data into a data table
+\fs30 \
+
+\fs26 Public Function executeAndGetResults(ByVal cmd As String) As Dictionary(Of String, String)
+\fs30 \
+
+\fs26 \'a0\'a0\'a0 Dim DT As DataTable = New DataTable
+\fs30 \
+
+\fs26 \'a0\'a0\'a0 Dim mocaResults As Dictionary(Of String, String) = New Dictionary(Of String, String)
+\fs30 \
+
+\fs26 \'a0
+\fs30 \
+
+\fs26 \'a0\'a0\'a0 startTime = Now
+\fs30 \
+
+\fs26 \'a0\'a0\'a0 Dim mocaExecResult As Integer = mocaConnection.Execute(cmd, DT)
+\fs30 \
+
+\fs26 \'a0\'a0\'a0 endTime = Now
+\fs30 \
+
+\fs26 \'a0
+\fs30 \
+
+\fs26 \'a0\'a0\'a0 If mocaExecResult = 0 AndAlso DT.Rows.Count > 0 Then
+\fs30 \
+
+\fs26 \'a0
+\fs30 \
+
+\fs26 \'a0\'a0\'a0\'a0\'a0\'a0\'a0 Dim lineCount As Integer = 1
+\fs30 \
+
+\fs26 \'a0\'a0\'a0\'a0\'a0\'a0\'a0 For Each row As DataRow In DT.Rows
+\fs30 \
+
+\fs26 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 For Each column As DataColumn In DT.Columns
+\fs30 \
+
+\fs26 \'a0
+\fs30 \
+
+\fs26 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 mocaResults.Add("(" + lineCount.ToString + ")-" + column.ToString, row(column).ToString)
+\fs30 \
+
+\fs26 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Next
+\fs30 \
+
+\fs26 \'a0
+\fs30 \
+
+\fs26 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 lineCount += 1
+\fs30 \
+
+\fs26 \'a0\'a0\'a0\'a0\'a0\'a0\'a0 Next
+\fs30 \
+
+\fs26 \'a0\'a0\'a0 End If
+\fs30 \
+
+\fs26 \'a0
+\fs30 \
+
+\fs26 \'a0\'a0\'a0 Return mocaResults
+\fs30 \
+
+\fs26 End Function}

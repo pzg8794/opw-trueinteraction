@@ -1,0 +1,9 @@
+
+CA = Coming Attraction
+RTG = Ready to Go
+AIS = Always in Stock
+
+will need a few more though.
+
+DNR = Do not Reorder
+DISC = Discontinued

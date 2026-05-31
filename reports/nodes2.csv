@@ -1,0 +1,39 @@
+id,block,block.type,block.name,block.capacity
+A1,block0,part0,officex,0
+A2,block0,part1,officex,0
+A3,block0,part2,officex,0
+A4,block0,part3,officex,0
+A5,N/A,N/A,N/A,0
+A6,N/A,N/A,N/A,0
+A7,N/A,N/A,N/A,0
+A8,N/A,N/A,N/A,0
+A9,block1,part8,s/r door1,0
+A10,block1,part9,s/r door2,0
+A11,block1,part10,s/r door3,0
+A12,N/A,N/A,N/A,0
+A13,N/A,N/A,N/A,0
+A14,block2,part13,s/r door1,0
+A15,block2,part14,s/r door2,0
+A16,block2,part15,s/r door3,0
+A17,block2,part16,s/r door4,0
+A18,block2,part17,s/r door5,0
+A19,block2,part18,r door1,0
+A20,block2,part19,r door2,0
+A21,block2&3,part20,r door3,0
+A22,block2&3,part21,r door4,0
+A23,N/A,N/A,N/A,0
+A24,N/A,N/A,N/A,0
+A25,N/A,N/A,N/A,0
+A26,N/A,N/A,N/A,0
+A27,N/A,N/A,N/A,0
+A28,N/A,N/A,N/A,0
+A29,N/A,N/A,N/A,0
+A30,N/A,N/A,N/A,0
+A31,N/A,N/A,N/A,0
+A32,block4,part31,r door1,0
+A33,block4,part32,r door2,0
+A34,block4,part33,r door3,0
+A35,N/A,N/A,N/A,0
+A36,N/A,N/A,N/A,0
+A37,N/A,N/A,N/A,0
+A38,N/A,N/A,N/A,0

@@ -1,0 +1,108 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf340
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 .background-image-holder.index2#calculator-overlay\
+	%video.hidden-xs\{:autoplay => true, :loop => true\}\
+		%source\{:src => asset_path("CalculatingVideo.mp4")\}\
+	.container\
+		.col-md-offset-1.col-md-10.col-xs-12\
+			%a#calculator-anchor\{:name => "calculator"\}\
+			.vertical-divider\
+				#calculator-title-divider\
+			.header-image-holder.hidden-xs\
+				=image_tag "homepage/other/Calculator.svg", :class => "header-image", :id => ""\
+			.banner\
+				.section-title\
+					What is Fraud costing your business?\
+				.vertical-divider\
+					.section-title-divider\
+				.section-subtitle\
+					The true cost of fraud isn't just fraud itself. There are several other factors to consider. Find out what fraud is costing your business. \
+			.vertical-divider\
+				#calculator-form-divider\
+			%table.two-table#calculator-table\
+				%tbody\
+					%tr\
+						%td#calculator-input-holder\
+							.clearfix#calculator-transaction-row\
+						\
+							.input-row\
+								%input.hint-left.amount\{:pattern => "[0-9]*", :inputmode => "numeric", :placeholder => "1000.00"\}\
+								.hint.left\
+									$\
+							.input-hint\
+								Monthly processing ammount\
+							.vertical-divider\
+								.calculator-row-divider	\
+							.input-row\
+								%input.hint-left.amount\{:pattern => "[0-9]*", :inputmode => "numeric", :placeholder => "1000.00"\}\
+								.hint.left\
+									$\
+							.input-hint\
+								What is your average number of credit card transacations a month?\
+							.vertical-divider\
+								.calculator-row-divider\
+							.input-row\
+								%input.hint-right.chargebacks\{:pattern => "[0-9]*", :inputmode => "numeric", :placeholder => "2"\}\
+								.hint.right\
+									\\%\
+							.input-hint\
+								What percentage of your monthly revenue is lost to chargeback each month?\
+							.vertical-divider\
+								.calculator-row-divider\
+							.input-row\
+								%input.hint-right.declined\{:pattern => "[0-9]*", :inputmode => "numeric", :placeholder => "2"\}\
+								.hint.right\
+									\\%\
+							.input-hint\
+								Enter the percentage of monthly declined (non-fraud) transactions?\
+							.vertical-divider\
+								.calculator-row-divider\
+							.input-row\
+								%input.hint-right.review\{:pattern => "[0-9]*", :inputmode => "numeric", :placeholder => "10"\}\
+								.hint.right\
+									\\%\
+							.input-hint\
+								Enter the percentage of monthly transactions reviewed manually?\
+							.vertical-divider\
+								.calculator-row-divider\
+						%td.divider\
+						%td#calculator-out-holder\
+							#calculator-results\
+								#calculator-summary\
+									save \
+									%span#calculator-percent-holder\
+										10%\
+									with NoFraud\
+								%table#calculator-explanation\
+									%tbody\
+										%tr\
+											%td#calculator-equal\
+												\\=\
+											%td.calculator-box\
+												.calculator-square#calculator-without\
+													.header\
+														Without NoFraud\
+													.price\
+														$2.00\
+													.copy\
+														True Cost of Fraud per transaction (less your fraud prevention solution costs)\
+											%td#calculator-or\
+												OR\
+											%td.calculator-box\
+												.calculator-square#calculator-with\
+													.header\
+														With NoFraud\
+													.price\
+														$4.00\
+													.copy\
+														True Cost with NoFraud (less NoFraud service cost)\
+					%tr.overflow-row\
+			.vertical-divider\
+				.calculator-stats-divider\
+			#calculator-stats\
+				The cost estimates above are based off of the following: a fraud loss rate of 2.77% (0.9% gross fraud at a cost of $3.08 per dollar of fraud) and an average transaction value of $78.30; a false positive rate of 5.2% (2.9% for US and CA and 7.5% non North America); an employee rate of $15 per hour and 5 minutes per manual review. \
+			.vertical-divider}

@@ -1,0 +1,4 @@
+By operating between your shopping cart and gateway, No Fraud makes integration remarkably easy and virtually compatible with every open source shopping cart platform (as well as many non-open source platforms). Users only need to do two things to go live:
+
+1) Provide No Fraud with your Gateway API ID - This lets No Fraud identify which transactions belong to you so that they are processed accordingly.
+2) Change the gateway URL in your platform configuration to route transaction information through No Fraud - Once done, all transactions will be directed to No Fraud for inspection before going to your Gateway.

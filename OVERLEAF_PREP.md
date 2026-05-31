@@ -1,0 +1,270 @@
+<!-- AUTO-GENERATED-PORTFOLIO-README -->
+# Overleaf Prep
+
+Paper, report, and presentation files imported into GitHub are grouped here for later Overleaf conversion.
+
+## Papers
+
+- `papers/10.1.1.396.1519.pdf`
+- `papers/26-147.pdf`
+- `papers/6264820.pdf`
+- `papers/696.PDF`
+- `papers/fulltext.pdf`
+- `papers/JIPS_31.pdf`
+- `papers/Lovin.pdf`
+- `papers/P063.PDF`
+- `papers/P136.PDF`
+- `papers/p45.pdf`
+- `papers/UB_Tree_paper.pdf`
+- `papers/wgz00.pdf`
+- `papers/WH-TimeStudy.pdf`
+
+## Reports
+
+- `reports/ MATERIAL RECORD - zmmtest1_19may2015 (Autosaved).csv`
+- `reports/01-14-2015.pdf`
+- `reports/0840037031_209383.doc`
+- `reports/128175 Lifetime Host Interface Specification with pickdownloadack.docx`
+- `reports/128175 Lifetime Software Functional Specification.docx`
+- `reports/370_46465_EY325_2012_1_2_1_1_Budgeting II.docx`
+- `reports/Academic Training Dept request template.doc`
+- `reports/AllNotes--from-Notes-PDFs.pdf`
+- `reports/AllNotes.pdf`
+- `reports/Architecture.pdf`
+- `reports/Cliff Proforma Example.csv`
+- `reports/course02.docx`
+- `reports/Customers.txt`
+- `reports/DAILY EXTRACT FROM TOOL TO DS.TXT`
+- `reports/DAILY IMPORT FROM DS TO TOOL.TXT`
+- `reports/Data Analysis.docx`
+- `reports/Data Mining Practical Machine Learning Tools and Techniques 3rd Edition-Mantesh.pdf`
+- `reports/data_dictionary.txt`
+- `reports/Data_Exploration--from-DB-Schema-PDFs.pdf`
+- `reports/Data_Exploration--from-LTB---Sales-Portal-DB-Schema.docx`
+- `reports/Data_Exploration--from-repo-TI-Formal-Reports.docx`
+- `reports/Data_Exploration--from-repo-TI-Formal-Reports.pdf`
+- `reports/Data_Exploration--from-repo-Understaing_Data.docx`
+- `reports/Data_Exploration.docx`
+- `reports/Data_Exploration.pdf`
+- `reports/datagathering.xlsx`
+- `reports/Dataset1-Media-Example-EDGES.csv`
+- `reports/Dataset1-Media-Example-NODES.csv`
+- `reports/Dataset2-Media-User-Example-EDGES.csv`
+- `reports/Dataset2-Media-User-Example-NODES.csv`
+- `reports/Doc Dec 04, 2015, 1313.pdf`
+- `reports/Doc Dec 30, 2015, 10-27 PM (1).pdf`
+- `reports/Doc Dec 30, 2015, 10-27 PM--from-Notes-PDFs.pdf`
+- `reports/Doc Dec 30, 2015, 10-27 PM.pdf`
+- `reports/Doc Jan 14, 2016, 9-47 PM.pdf`
+- `reports/ds_extract.csv`
+- `reports/E-Commerce.docx`
+- `reports/edges.csv`
+- `reports/edges1.csv`
+- `reports/edges2.csv`
+- `reports/edges3.csv`
+- `reports/ExcessReport--from-LTB---Sales-Portal-Client-Artifacts.txt`
+- `reports/ExcessReport--from-My_Notes-CSV-Files.csv`
+- `reports/ExcessReport--from-Notes-My_Notes.txt`
+- `reports/ExcessReport.csv`
+- `reports/ExcessReport.pdf`
+- `reports/ExcessReport.txt`
+- `reports/FCS HISTORY.TXT`
+- `reports/Fon Detail Pick Area.doc`
+- `reports/Fontana DC 7-16-13.pdf`
+- `reports/Fontana Detail Piece Pick Pictures.doc`
+- `reports/Forecast History Saves.docx`
+- `reports/hungarian.data.processed.csv`
+- `reports/Hungarian_j48_results_decimal_10.txt`
+- `reports/Hungarian_j48_results_decimal_e.txt`
+- `reports/Hungarian_j48_results_minmax.txt`
+- `reports/Hungarian_j48_results_unnormalized.txt`
+- `reports/Impactly Machine Learning Strategy.pdf`
+- `reports/INITIAL UPLOAD--from-PLANNING-Updated-Datafiles-as-of-20160224.TXT`
+- `reports/INITIAL UPLOAD.TXT`
+- `reports/insticator sample.odt`
+- `reports/ITEM - STATUS – products lifecycle status.txt`
+- `reports/knop.csv`
+- `reports/kote504.txt`
+- `reports/kote545.txt`
+- `reports/kote546.txt`
+- `reports/kote548.txt`
+- `reports/LTB Sales Portal Functions Request--from-Understaing_Data-Analysis.docx`
+- `reports/LTB Sales Portal Functions Request.docx`
+- `reports/LTB Sales Portal-Requested Features--from-LTB_Sales_Project-Introduction.docx`
+- `reports/LTB Sales Portal-Requested Features--from-TI_DropBox_Bkup-LTB---Sales-Portal.docx`
+- `reports/LTB Sales Portal-Requested Features.docx`
+- `reports/LTB-SALES-WiresV6.pdf`
+- `reports/LTB-SALES-WiresV7--from-LTB_Sales_Project-GUI.pdf`
+- `reports/LTB-SALES-WiresV7.pdf`
+- `reports/LTBnotes.txt`
+- `reports/LTBSales.pdf`
+- `reports/LTBSales_Report--from-Client-Artifacts-DOCUMENTATION.docx`
+- `reports/LTBSales_Report--from-LTB---Sales-Portal-DB-Schema.docx`
+- `reports/LTBSales_Report--from-LTB_Sales_Project-Data-Analysis.docx`
+- `reports/LTBSales_Report.docx`
+- `reports/LTBSales_Report.pdf`
+- `reports/LTBSalesPortal_Styleguide.pdf`
+- `reports/LTBSalesProtal_Styleguide.pdf`
+- `reports/LTBSP Current Status.pdf`
+- `reports/LTBSP M4 Progress.pdf`
+- `reports/LTBSP M5 Comprehensive Progress Report.pdf`
+- `reports/MATERIAL RECORD - zmmtest1_19may2015 (Autosaved).csv`
+- `reports/MilestoneIV-Report.pdf`
+- `reports/MilestoneV-Report.docx`
+- `reports/MilestoneV-Report.pdf`
+- `reports/MOCA connection in vb dot net.rtf`
+- `reports/ModelIntegrationSystem.pdf`
+- `reports/My main duty is to provide technical direction for the development.docx`
+- `reports/NetSciX_2016_Workshop.pdf`
+- `reports/New_SAP_Exports.txt`
+- `reports/nodes.csv`
+- `reports/nodes1.csv`
+- `reports/nodes2.csv`
+- `reports/NoFraud Website Strategy__Final.pdf`
+- `reports/NoFraudNewLogos.pdf`
+- `reports/notes (Anthony Castiglia's conflicted copy 2014-04-03).txt`
+- `reports/Notes-Dec-17,-2015.pdf`
+- `reports/notes.txt`
+- `reports/NotesDec-17-2015--from-Notes-PDFs.pdf`
+- `reports/NotesDec-17-2015.pdf`
+- `reports/PDSLongText.txt`
+- `reports/PDSLongTextTest.txt`
+- `reports/PDSMaterialsTest.txt`
+- `reports/Performance.pdf`
+- `reports/Permissions - Cliff.docx`
+- `reports/Permissions_Based_System (Piter Garcia's conflicted copy 2016-01-13).docx`
+- `reports/Permissions_Based_System--from-LTB---Sales-Portal-DB-Schema.docx`
+- `reports/Permissions_Based_System--from-repo-TI-Formal-Reports.docx`
+- `reports/Permissions_Based_System--from-repo-Understaing_Data.docx`
+- `reports/Permissions_Based_System.docx`
+- `reports/Permissions_Based_System.pdf`
+- `reports/picknpack.csv`
+- `reports/Piter Updated Academic Training.pdf`
+- `reports/Piter+Garcia+CV.doc`
+- `reports/PiterG.doc`
+- `reports/PiterGarciaCV.pdf`
+- `reports/PLANNING - Demand Solutions Data Extract - Initial Upload.csv`
+- `reports/Planning--from-LTB_Sales_Project-Data-Analysis.docx`
+- `reports/Planning.docx`
+- `reports/PlanningDraft--from-Client-Artifacts-DOCUMENTATION.docx`
+- `reports/PlanningDraft.docx`
+- `reports/PLANNOGRAM 12FT KITCHENWARE CUTLERY INLINE 3-25-15_SD.pdf`
+- `reports/Privacy_Policy.txt`
+- `reports/Product_Text.txt`
+- `reports/Proforma - Almost Final2.xlsx`
+- `reports/PROFORMA - Cliff Proforma Example.pdf`
+- `reports/PROFORMA - Kmart Cutlery 2 and a half FT - MEGAN PROJECTIONS 11092015 (1).xlsx`
+- `reports/PROFORMA - Template FY 2015.xls`
+- `reports/Progress_Report_MilestoneI.pdf`
+- `reports/Progress_Report_MilestoneII.pdf`
+- `reports/Progress_Report_MilestoneIII.pdf`
+- `reports/Project_Outline--from-LTB_Sales_Project-Introduction.docx`
+- `reports/Project_Outline--from-TI_DropBox_Bkup-LTB---Sales-Portal.docx`
+- `reports/Project_Outline.docx`
+- `reports/Project_Outline.pdf`
+- `reports/Project_Overview--from-LTB_Sales_Project-Introduction.docx`
+- `reports/Project_Overview--from-TI_DropBox_Bkup-LTB---Sales-Portal.docx`
+- `reports/Project_Overview.docx`
+- `reports/Project_Overview.pdf`
+- `reports/ProximaNovaSupplementGuide.pdf`
+- `reports/retailers--from-LTB---Sales-Portal-data.txt`
+- `reports/retailers.txt`
+- `reports/Rplot26.pdf`
+- `reports/SampleSystemFlow.pdf`
+- `reports/Sell--from-Client-Artifacts-DOCUMENTATION.docx`
+- `reports/Sell.docx`
+- `reports/Set up_process.txt`
+- `reports/SKM_C654e16060702520.pdf`
+- `reports/Slipsheet Loads (Autosaved).docx`
+- `reports/Standard Operating Procedure Detail revised 052016.doc`
+- `reports/Strategy_Plan--from-repo-Understaing_Data.docx`
+- `reports/Strategy_Plan.docx`
+- `reports/Synaptik Sample.docx`
+- `reports/Synaptik.pdf`
+- `reports/SystemFlowV1.pdf`
+- `reports/SystemFlowV2.pdf`
+- `reports/SystemUI--from-LTB_Sales_Project-GUI.pdf`
+- `reports/SystemUI.docx`
+- `reports/SystemUI.pdf`
+- `reports/SystemUML and Flow Diagrams.pdf`
+- `reports/SystemUML.pdf`
+- `reports/SystemUMLnFlow Diagrams.pdf`
+- `reports/TeamSchema_20151209.pdf`
+- `reports/TeamStories_20151209.pdf`
+- `reports/temp.txt`
+- `reports/test.pdf`
+- `reports/TI HISTFCS 201501.TXT`
+- `reports/TI HISTFCS 201502.TXT`
+- `reports/TI HISTFCS 201503.TXT`
+- `reports/TI HISTFCS 201504.TXT`
+- `reports/TI HISTFCS 201505.TXT`
+- `reports/TI HISTFCS 201506.TXT`
+- `reports/TI HISTFCS 201507.TXT`
+- `reports/TI HISTFCS 201508.TXT`
+- `reports/TI HISTFCS 201509.TXT`
+- `reports/TI HISTFCS 201510.TXT`
+- `reports/TI HISTFCS 201511.TXT`
+- `reports/TI HISTFCS 201512.TXT`
+- `reports/TI HISTFCS 201601.TXT`
+- `reports/TI HISTFCS 201602.TXT`
+- `reports/UnderstandingSystem.docx`
+- `reports/UnderstandingTerms--from-LTB_Sales_Project-Data-Analysis.docx`
+- `reports/UnderstandingTerms--from-Understaing_Data-Analysis.docx`
+- `reports/UnderstandingTerms.docx`
+- `reports/Untitled 2.rtf`
+- `reports/Untitled 3.rtf`
+- `reports/Untitled 4.rtf`
+- `reports/Untitled 5.rtf`
+- `reports/Untitled 6.rtf`
+- `reports/Untitled 7.rtf`
+- `reports/Untitled.rtf`
+- `reports/UpdatedSystemUML.pdf`
+- `reports/Warehouse--from-TI_DropBox_Bkup-LTB-Warehouse.docx`
+- `reports/Warehouse-Delivery.docx`
+- `reports/Warehouse-MachineLearning.docx`
+- `reports/Warehouse-MachineLearning.pdf`
+- `reports/Warehouse-PicKnPacK.docx`
+- `reports/Warehouse.docx`
+- `reports/WH-Data Analysis.pdf`
+- `reports/WireFrames-Demo1_Notes.rtf`
+- `reports/YCMR7_Extract.txt`
+- `reports/YCMS7.txt`
+- `reports/~$0_46465_EY325_2012_1_2_1_1_Budgeting II.docx`
+- `reports/~$40037031_209383.doc`
+- `reports/~$BSales_Report.docx`
+- `reports/~$derstandingTerms.docx`
+- `reports/~$Sell.docx`
+
+## Presentations
+
+- `presentations/Basic Presentation V1.key`
+- `presentations/Basic Presentation V1.ppt`
+- `presentations/Basic Presentation V3.ppt`
+- `presentations/Basic Presentation V5.pdf`
+- `presentations/Basic Presentation V6.pdf`
+- `presentations/Basic Presentation V6.ppt`
+- `presentations/Basic Presentation V7.pdf`
+- `presentations/Basic Presentation V7.ppt`
+- `presentations/Basic Presentation V8.pdf`
+- `presentations/Basic Presentation V8.ppt`
+- `presentations/chap10_slides.pdf`
+- `presentations/Design Example.key`
+- `presentations/DesignSketchV1.key`
+- `presentations/intro-dw3.ppt`
+- `presentations/LTB Proforma FINAL Cliff.key`
+- `presentations/LTB Proforma FINAL.key`
+- `presentations/LTB-SALES-WiresV2 copy.key`
+- `presentations/LTB-SALES-WiresV2.key`
+- `presentations/LTB-SALES-WiresV3.key`
+- `presentations/LTB-SALES-WiresV4 - piter copy.key`
+- `presentations/LTB-SALES-WiresV4 - piter.key`
+- `presentations/LTB-SALES-WiresV5 copy.key`
+- `presentations/LTB-SALES-WiresV5.key`
+- `presentations/LTB-SALES-WiresV6 copy.key`
+- `presentations/LTB-SALES-WiresV6.key`
+- `presentations/LTB-SALES-WiresV7--from-LTB_Sales_Project-GUI.key`
+- `presentations/LTB-SALES-WiresV7.key`
+- `presentations/NoFraudNewLogos.key`
+- `presentations/Reseller Intro.pptx`
+- `presentations/Untitled 5.key`
+- `presentations/Visual picking potential views.pptx`

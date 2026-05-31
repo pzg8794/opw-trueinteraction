@@ -1,0 +1,5 @@
+Key																	
+SAP Field	KONH.KSCHL	KONH.VAKEY	KONH.VAKEY	KONH.VAKEY	KONH.KUNNR	KONH.VAKEY	KONP.KONWA	KONP.KPEIN	KONP.KBETR	A501.DATAB	A501.DATBI				LOEVM_KO	<>	X
+Type / Char	Char / 4	Char / 4	Char / 18	Char / 4	Char / 10	Char / 2	Char / 3		Curr / 11(2)								
+Header	Condition Type	Sales Org	Material	Plant	Customer	Distrobution Channel	Currency	Price Units	Amount	Valid From	Valid To						
+Data	ZCSP	SYUS															
