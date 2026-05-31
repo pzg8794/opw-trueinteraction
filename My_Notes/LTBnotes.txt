@@ -1,0 +1,36 @@
+Interfaces (In ? , Out  ?)
+Existing
+Material Master (CSR - Flat File)  ? Items
+Customer Master (CMS Flat File) ? We can never see that
+CSR is the customer service system and cms customer management system
+
+Inventory Availability (CSR Web Service) ? 
+
+Order Lookup (CSR Web Service) ?
+Order Creation (CSR Web Service) ?
+Difference between order lookup and order creation
+
+Item Images (CSR - Folder share) ?
+Each item will have an image associated with it
+
+New
+Excess Inventory (SAP - Flat File) ?
+If an item is poorly plan and not performing well, we want 
+
+Demand Solutions History (DS - Flat File) ?
+History of an item, and its past performance
+
+Demand Solutions Sales History (DS - Flat File) ?
+History of the items sold
+
+Secondary Item Images (Folder share) ?
+
+
+Royalty Tables (SAP - Flat File Export) ?
+
+Commission Tables (SAP - Flat File Export) ?
+Forecast Sales Portal (Sales Portal Export - Flat File) ?
+Customer Program Drivers (Sales Portal Export - Flat File) ?
+Customer Price Records (Sales Portal Export - Flat File) ?
+Meeting Create in Exchange Server 2010 SP3   ?
+Material Default Delivery Plant by Sales Org (SAP Export) ?

@@ -1,0 +1,256 @@
+# Drive Overview
+
+Source: https://drive.google.com/drive/folders/1Zfx8V3p4c5M-ZZb27_Xnjm_QRO8QkLGD
+
+Showing depth 3.
+
+- `AptanaStudio.lnk`
+- `Aptana_Studio_3_Setup_3.6.1.exe`
+- `Data_Exploration.docx`
+- `Data_Exploration.pdf`
+- `GoToMeeting Quick Connect.lnk`
+- `GoToMeeting.lnk`
+- `LTB_Sales_Project/`
+- `MATERIAL RECORD - zmmtest1_19may2015 (Autosaved).csv`
+- `ModelIntegrationSystem.jpg`
+- `My main duty is to provide technical direction for the development.docx`
+- `My_Notes/`
+- `Outline.vsdx`
+- `PLANNING - Demand Solutions Data Extract - Initial Upload.csv`
+- `PROFORMA - Cliff Proforma Example.pdf`
+- `Permissions_Based_System.docx`
+- `Slack.lnk`
+- `SlackSetup.exe`
+- `Stuff/`
+- `Synaptik-Architecture.vsdx`
+- `Synaptik.vsdx`
+- `TI Formal Reports/`
+- `TI_DropBox_Bkup/`
+- `Understaing_Data/`
+- `databaseSchema.vsdx`
+- `datagathering.xlsx`
+- `Stuff/Old_Stuff/`
+- `Stuff/Other Stuff/`
+- `Understaing_Data/Analysis/`
+- `Understaing_Data/Data_Exploration.docx`
+- `Understaing_Data/Documentation/`
+- `Understaing_Data/LTBSales_Report.docx`
+- `Understaing_Data/Permissions_Based_System.docx`
+- `Understaing_Data/PlanningDraft.docx`
+- `Understaing_Data/Sample_Structure/`
+- `Understaing_Data/Strategy_Plan.docx`
+- `Understaing_Data/~$BSales_Report.docx`
+- `TI_DropBox_Bkup/Application/`
+- `TI_DropBox_Bkup/LTB - Sales Portal/`
+- `TI_DropBox_Bkup/LTB-Warehouse/`
+- `TI_DropBox_Bkup/LTB-Warehouse-APP/`
+- `TI_DropBox_Bkup/NoFraud/`
+- `TI_DropBox_Bkup/NoFraud - Marketing Site/`
+- `TI_DropBox_Bkup/Normalization/`
+- `LTB_Sales_Project/Drawing2.vsdx`
+- `LTB_Sales_Project/MileStones/`
+- `LTB_Sales_Project/ModelIntegrationSystem.vsdx`
+- `LTB_Sales_Project/Project_Outline.docx`
+- `LTB_Sales_Project/Project_Overview.docx`
+- `My_Notes/0840037031_209383.doc`
+- `My_Notes/370_46465_EY325_2012_1_2_1_1_Budgeting II.docx`
+- `My_Notes/LTBnotes.txt`
+- `My_Notes/UnderstandingTerms.docx`
+- `My_Notes/course02.docx`
+- `My_Notes/~$0_46465_EY325_2012_1_2_1_1_Budgeting II.docx`
+- `My_Notes/~$40037031_209383.doc`
+- `My_Notes/~$derstandingTerms.docx`
+- `My_Notes/~WRL0626.tmp`
+- `TI Formal Reports/Architecture.pdf`
+- `TI Formal Reports/CRUD.jpg`
+- `TI Formal Reports/Data_Exploration-LTBSP.zip`
+- `TI Formal Reports/Data_Exploration.docx`
+- `TI Formal Reports/Data_Exploration.pdf`
+- `TI Formal Reports/Data_Exploration.zip`
+- `TI Formal Reports/HighLevel Presentation-LearnerNation.zip`
+- `TI Formal Reports/Impactly Machine Learning Strategy.pdf`
+- `TI Formal Reports/Impactly Machine Learning Strategy.zip`
+- `TI Formal Reports/LTB-SALES-WiresV6.zip`
+- `TI Formal Reports/LTBSales.zip`
+- `TI Formal Reports/Marketing Insights-Architecture Reference/`
+- `TI Formal Reports/Marketing Insights-Architecture Reference.zip`
+- `TI Formal Reports/MilestoneIV-Report.pdf`
+- `TI Formal Reports/MilestoneIV-Report.zip`
+- `TI Formal Reports/MilestoneV-Report.docx`
+- `TI Formal Reports/MilestoneV-Report.pdf`
+- `TI Formal Reports/MilestoneV-Report.zip`
+- `TI Formal Reports/ModelIntegrationSystem.pdf`
+- `TI Formal Reports/NoFrad-Basic Presentation V8/`
+- `TI Formal Reports/NoFrad-Basic Presentation V8.zip`
+- `TI Formal Reports/NoFraud Website Strategy__Final.zip`
+- `TI Formal Reports/Performance.pdf`
+- `TI Formal Reports/Permissions_Based_System.docx`
+- `TI Formal Reports/Piter+Garcia+CV.doc`
+- `TI Formal Reports/PiterG.doc`
+- `TI Formal Reports/PiterGarciaCV.pdf`
+- `TI Formal Reports/Progress_Report_MilestoneI.pdf`
+- `TI Formal Reports/Progress_Report_MilestoneI.zip`
+- `TI Formal Reports/Progress_Report_MilestoneII.pdf`
+- `TI Formal Reports/Progress_Report_MilestoneII.zip`
+- `TI Formal Reports/Progress_Report_MilestoneIII.pdf`
+- `TI Formal Reports/Progress_Report_MilestoneIII.zip`
+- `TI Formal Reports/Project_Outline.pdf`
+- `TI Formal Reports/Project_Outline.zip`
+- `TI Formal Reports/Project_Overview.pdf`
+- `TI Formal Reports/Project_Overview.zip`
+- `TI Formal Reports/SampleSystemFlow.pdf`
+- `TI Formal Reports/Strategy_Plan.docx`
+- `TI Formal Reports/Synaptik Sample.docx`
+- `TI Formal Reports/Synaptik Sample.zip`
+- `TI Formal Reports/Synaptik-Allscope-SPECV1.zip`
+- `TI Formal Reports/Synaptik.pdf`
+- `TI Formal Reports/SystemUI.docx`
+- `TI Formal Reports/SystemUI.pdf`
+- `TI Formal Reports/SystemUI.zip`
+- `TI Formal Reports/TeamSchema_20151209-LearnerNation/`
+- `TI Formal Reports/TeamSchema_20151209-LearnerNation.zip`
+- `TI Formal Reports/UpdatedSystemUML.pdf`
+- `TI Formal Reports/UpdatedSystemUML.zip`
+- `TI Formal Reports/WH-Data Analysis.pdf`
+- `TI Formal Reports/WH-TimeStudy.pdf`
+- `TI Formal Reports/Warehouse-MachineLearning.pdf`
+- `TI Formal Reports/Warehouse-MachineLearning.zip`
+- `TI Formal Reports/allscope-chart.zip`
+- `TI Formal Reports/insticator sample.odt`
+- `Stuff/Old_Stuff/Drawing1.vsdx`
+- `Stuff/Old_Stuff/LTBSales_Report.pdf`
+- `Stuff/Other Stuff/Academic Training Dept request template.doc`
+- `Stuff/Other Stuff/Data Mining Practical Machine Learning Tools and Techniques 3rd Edition-Mantesh.pdf`
+- `Stuff/Other Stuff/Piter Updated Academic Training.pdf`
+- `Understaing_Data/Documentation/Cliff Proforma Example.csv`
+- `Understaing_Data/Documentation/Forecast History Saves.docx`
+- `Understaing_Data/Documentation/LTB Sales Portal Functions Request.docx`
+- `Understaing_Data/Documentation/Sell.docx`
+- `Understaing_Data/Documentation/Slipsheet Loads (Autosaved).docx`
+- `Understaing_Data/Documentation/~$Sell.docx`
+- `Understaing_Data/Documentation/~WRL4053.tmp`
+- `Understaing_Data/Sample_Structure/TeamSchema_20151209.pdf`
+- `Understaing_Data/Sample_Structure/TeamStories_20151209.pdf`
+- `TI_DropBox_Bkup/Application/TrueInteraction/`
+- `Understaing_Data/Analysis/EntityDesignerDiagram.bmp`
+- `Understaing_Data/Analysis/LTB Sales Portal Functions Request.docx`
+- `Understaing_Data/Analysis/LTB Sales Portal-Requested Features.docx`
+- `Understaing_Data/Analysis/LTBSales.pdf`
+- `Understaing_Data/Analysis/Planning.docx`
+- `Understaing_Data/Analysis/UnderstandingTerms.docx`
+- `Understaing_Data/Analysis/UpdatedSystemUML.vsdx`
+- `Understaing_Data/Analysis/test.pdf`
+- `TI_DropBox_Bkup/LTB-Warehouse/.dropbox`
+- `TI_DropBox_Bkup/LTB-Warehouse/Data Analysis/`
+- `TI_DropBox_Bkup/LTB-Warehouse/Fon Detail Pick Area.doc`
+- `TI_DropBox_Bkup/LTB-Warehouse/Fontana Detail Piece Pick Pictures.doc`
+- `TI_DropBox_Bkup/LTB-Warehouse/Research/`
+- `TI_DropBox_Bkup/LTB-Warehouse/Warehouse-Delivery.docx`
+- `TI_DropBox_Bkup/LTB-Warehouse/Warehouse-MachineLearning.docx`
+- `TI_DropBox_Bkup/LTB-Warehouse/Warehouse.docx`
+- `TI_DropBox_Bkup/LTB-Warehouse/graph.R`
+- `TI_DropBox_Bkup/LTB-Warehouse/provide docs/`
+- `TI_DropBox_Bkup/LTB-Warehouse/temp.txt`
+- `TI_DropBox_Bkup/LTB - Sales Portal/.dropbox`
+- `TI_DropBox_Bkup/LTB - Sales Portal/Client Artifacts/`
+- `TI_DropBox_Bkup/LTB - Sales Portal/DB Schema/`
+- `TI_DropBox_Bkup/LTB - Sales Portal/IA/`
+- `TI_DropBox_Bkup/LTB - Sales Portal/LTB Sales Portal-Requested Features.docx`
+- `TI_DropBox_Bkup/LTB - Sales Portal/Maze's File/`
+- `TI_DropBox_Bkup/LTB - Sales Portal/Meeting Notes/`
+- `TI_DropBox_Bkup/LTB - Sales Portal/PDSLongText.txt`
+- `TI_DropBox_Bkup/LTB - Sales Portal/PDSLongTextTest.txt`
+- `TI_DropBox_Bkup/LTB - Sales Portal/PDSMaterialsTest.txt`
+- `TI_DropBox_Bkup/LTB - Sales Portal/Piters Temp Files/`
+- `TI_DropBox_Bkup/LTB - Sales Portal/Product_Text.txt`
+- `TI_DropBox_Bkup/LTB - Sales Portal/Project_Outline.docx`
+- `TI_DropBox_Bkup/LTB - Sales Portal/Project_Outline.pdf`
+- `TI_DropBox_Bkup/LTB - Sales Portal/Project_Overview.docx`
+- `TI_DropBox_Bkup/LTB - Sales Portal/Project_Overview.pdf`
+- `TI_DropBox_Bkup/LTB - Sales Portal/Spec/`
+- `TI_DropBox_Bkup/LTB - Sales Portal/Training Videos/`
+- `TI_DropBox_Bkup/LTB - Sales Portal/Whiteboard/`
+- `TI_DropBox_Bkup/LTB - Sales Portal/Wires/`
+- `TI_DropBox_Bkup/LTB - Sales Portal/comments.png`
+- `TI_DropBox_Bkup/LTB - Sales Portal/data/`
+- `TI_DropBox_Bkup/LTB - Sales Portal/fonts/`
+- `TI_DropBox_Bkup/LTB - Sales Portal/retailers.txt`
+- `TI_DropBox_Bkup/NoFraud/pasted_image_at_2016_01_27_01_01_pm.png`
+- `TI_DropBox_Bkup/NoFraud/screen_shot_2016-01-24_at_7.16.59_am.png`
+- `TI_DropBox_Bkup/NoFraud/screen_shot_2016-01-24_at_7.20.35_am.png`
+- `TI_DropBox_Bkup/NoFraud/screen_shot_2016-01-24_at_7.21.05_am.png`
+- `TI_DropBox_Bkup/NoFraud/screen_shot_2016-01-28_at_1.40.43_am.png`
+- `TI_DropBox_Bkup/NoFraud/screen_shot_2016-01-29_at_1.52.49_am.png`
+- `TI_DropBox_Bkup/NoFraud/screen_shot_2016-01-29_at_2.11.01_am.png`
+- `TI_DropBox_Bkup/NoFraud/screen_shot_2016-01-29_at_2.13.20_am.png`
+- `TI_DropBox_Bkup/NoFraud/screen_shot_2016-01-31_at_2.02.21_am.png`
+- `TI_DropBox_Bkup/NoFraud/screen_shot_2016-01-31_at_2.02.48_am.png`
+- `TI_DropBox_Bkup/NoFraud/screen_shot_2016-01-31_at_2.03.04_am.png`
+- `TI_DropBox_Bkup/NoFraud/screen_shot_2016-01-31_at_8.36.45_pm.png`
+- `TI_DropBox_Bkup/NoFraud - Marketing Site/.dropbox`
+- `TI_DropBox_Bkup/NoFraud - Marketing Site/Client Artifacts/`
+- `TI_DropBox_Bkup/NoFraud - Marketing Site/CurrentRepo/`
+- `TI_DropBox_Bkup/NoFraud - Marketing Site/IA/`
+- `TI_DropBox_Bkup/NoFraud - Marketing Site/Liam's Files/`
+- `TI_DropBox_Bkup/NoFraud - Marketing Site/Maze's Files/`
+- `TI_DropBox_Bkup/NoFraud - Marketing Site/Notes/`
+- `TI_DropBox_Bkup/NoFraud - Marketing Site/PHOTOS/`
+- `TI_DropBox_Bkup/NoFraud - Marketing Site/PRESENTATIONS/`
+- `TI_DropBox_Bkup/NoFraud - Marketing Site/Whiteboard/`
+- `TI_DropBox_Bkup/NoFraud - Marketing Site/Wires/`
+- `TI_DropBox_Bkup/Normalization/.dropbox`
+- `TI_DropBox_Bkup/Normalization/.notes.txt.swp`
+- `TI_DropBox_Bkup/Normalization/Hungarian.arff`
+- `TI_DropBox_Bkup/Normalization/Hungarian_normalized_minmax.arff`
+- `TI_DropBox_Bkup/Normalization/Hungarian_numeric.arff`
+- `TI_DropBox_Bkup/Normalization/Results/`
+- `TI_DropBox_Bkup/Normalization/data_dictionary.txt`
+- `TI_DropBox_Bkup/Normalization/hungarian.data`
+- `TI_DropBox_Bkup/Normalization/hungarian.data.processed.csv`
+- `TI_DropBox_Bkup/Normalization/notes (Anthony Castiglia's conflicted copy 2014-04-03).txt`
+- `TI_DropBox_Bkup/Normalization/notes.txt`
+- `TI_DropBox_Bkup/LTB-Warehouse-APP/Capture Document V1.pages`
+- `TI_DropBox_Bkup/LTB-Warehouse-APP/E-Commerce.docx`
+- `TI_DropBox_Bkup/LTB-Warehouse-APP/File_000.jpeg`
+- `TI_DropBox_Bkup/LTB-Warehouse-APP/File_001.jpeg`
+- `TI_DropBox_Bkup/LTB-Warehouse-APP/File_002.jpeg`
+- `TI_DropBox_Bkup/LTB-Warehouse-APP/File_003.jpeg`
+- `TI_DropBox_Bkup/LTB-Warehouse-APP/File_004.jpeg`
+- `TI_DropBox_Bkup/LTB-Warehouse-APP/File_005.jpeg`
+- `TI_DropBox_Bkup/LTB-Warehouse-APP/File_006.jpeg`
+- `TI_DropBox_Bkup/LTB-Warehouse-APP/MOCA connection in vb dot net.rtf`
+- `TI_DropBox_Bkup/LTB-Warehouse-APP/New Recording 19.m4a`
+- `TI_DropBox_Bkup/LTB-Warehouse-APP/Standard Operating Procedure Detail revised 052016.doc`
+- `TI_DropBox_Bkup/LTB-Warehouse-APP/Visual picking potential views.pptx`
+- `TI_DropBox_Bkup/LTB-Warehouse-APP/Warehouse-PicKnPacK.docx`
+- `TI_DropBox_Bkup/LTB-Warehouse-APP/Warehouse.docx`
+- `TI_DropBox_Bkup/LTB-Warehouse-APP/WiresV1.sketch`
+- `TI_DropBox_Bkup/LTB-Warehouse-APP/iPad Pro Landscape.png`
+- `TI_DropBox_Bkup/LTB-Warehouse-APP/iPad Pro Landscape1.png`
+- `TI_DropBox_Bkup/LTB-Warehouse-APP/iPad Pro Landscape2.png`
+- `TI_DropBox_Bkup/LTB-Warehouse-APP/unnamed-1.png`
+- `TI_DropBox_Bkup/LTB-Warehouse-APP/unnamed-2.png`
+- `TI_DropBox_Bkup/LTB-Warehouse-APP/unnamed.png`
+- `TI Formal Reports/TeamSchema_20151209-LearnerNation/TeamSchema_20151209-1.jpg`
+- `TI Formal Reports/Marketing Insights-Architecture Reference/Marketing Insights-Architecture Reference-01.jpg`
+- `TI Formal Reports/Marketing Insights-Architecture Reference/Marketing Insights-Architecture Reference-02.jpg`
+- `TI Formal Reports/Marketing Insights-Architecture Reference/Marketing Insights-Architecture Reference-03.jpg`
+- `TI Formal Reports/Marketing Insights-Architecture Reference/Marketing Insights-Architecture Reference-04.jpg`
+- `TI Formal Reports/Marketing Insights-Architecture Reference/Marketing Insights-Architecture Reference-05.jpg`
+- `TI Formal Reports/Marketing Insights-Architecture Reference/Marketing Insights-Architecture Reference-06.jpg`
+- `TI Formal Reports/Marketing Insights-Architecture Reference/Marketing Insights-Architecture Reference-07.jpg`
+- `TI Formal Reports/Marketing Insights-Architecture Reference/Marketing Insights-Architecture Reference-08.jpg`
+- `TI Formal Reports/Marketing Insights-Architecture Reference/Marketing Insights-Architecture Reference-09.jpg`
+- `TI Formal Reports/Marketing Insights-Architecture Reference/Marketing Insights-Architecture Reference-10.jpg`
+- `TI Formal Reports/Marketing Insights-Architecture Reference/Marketing Insights-Architecture Reference-11.jpg`
+- `TI Formal Reports/Marketing Insights-Architecture Reference/Marketing Insights-Architecture Reference-12.jpg`
+- `TI Formal Reports/Marketing Insights-Architecture Reference/Marketing Insights-Architecture Reference-13.jpg`
+- `TI Formal Reports/Marketing Insights-Architecture Reference/Marketing Insights-Architecture Reference-14.jpg`
+- `TI Formal Reports/Marketing Insights-Architecture Reference/Marketing Insights-Architecture Reference-15.jpg`
+- `TI Formal Reports/Marketing Insights-Architecture Reference/Marketing Insights-Architecture Reference-16.jpg`
+- `TI Formal Reports/Marketing Insights-Architecture Reference/Marketing Insights-Architecture Reference-17.jpg`
+- `TI Formal Reports/Marketing Insights-Architecture Reference/Marketing Insights-Architecture Reference-18.jpg`
+- `TI Formal Reports/Marketing Insights-Architecture Reference/Marketing Insights-Architecture Reference-19.jpg`
+- `TI Formal Reports/Marketing Insights-Architecture Reference/Marketing Insights-Architecture Reference-20.jpg`
+- `TI Formal Reports/Marketing Insights-Architecture Reference/Marketing Insights-Architecture Reference-21.jpg`
+- `TI Formal Reports/Marketing Insights-Architecture Reference/Marketing Insights-Architecture Reference-22.jpg`

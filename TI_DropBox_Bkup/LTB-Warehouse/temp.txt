@@ -1,0 +1,1355 @@
+install.packages("randomForest")
+install.packages("party")
+install.packages("pvclust")
+install.packages("NbClust")
+install.packages("rattle")
+install.packages("mclust")
+install.packages("fpc")
+install.packages("cluster")
+install.packages("foreign")
+install.packages("DMwR")
+install.packages("Hmisc")
+install.packages("PerformanceAnalytics")
+install.packages("ggvis")
+install.packages("rpart.plot")
+install.packages("partykit")
+install.packages("lattice")
+install.packages("hexbin")
+install.packages("class")
+install.packages("nnet")
+install.packages("e1071")
+install.packages("gmodels")
+install.packages("ggplot2")
+install.packages("Rcpp")
+install.packages("RSNNS")
+df <- read.csv("C:/Users/Piter Garcia/workspace/Impactly/quarter1_datao.csv")
+
+
+library(hexbin)
+library(DMwR)
+library(Hmisc)
+library(PerformanceAnalytics)
+library(foreign)
+library(cluster) 
+library(fpc)
+library(mclust)
+library(NbClust)
+library(pvclust)
+library(lattice)
+library(ggplot2)
+library(Rcpp)
+
+
+remove.packages(c("ggplot2", "data.table"))
+install.packages('Rcpp', dependencies = TRUE)
+install.packages('ggplot2', dependencies = TRUE)
+install.packages('data.table', dependencies = TRUE)
+
+df <- read.csv("~/workspace/LTB-Warehouse/datars.csv")
+# remove "Species", which is a categorical column
+mydf <- df
+#mydf <- Filter(function(x)!all(is.na(x)), df)
+data2 <- mydf[ -c(5, 7, 12:13, 18:19, 20:31) ]
+outlier.scores <- lofactor(df, k=2)
+dev.new(width=5, height=4)
+plot(density(outlier.scores))
+
+#data2 <- mydf[,42:46] #Overages of KPI and Performance
+outlier.scores <- lofactor(data2, k=5)
+dev.new(width=5, height=4)
+plot(density(outlier.scores))
+
+# pick top 5 as outliers
+outliers <- order(outlier.scores, decreasing=T)
+# who are outliers
+print(outliers)
+
+n <- nrow(data2)
+labels <- 1:n
+labels[-outliers] <- "."
+dev.new(width=5, height=4)
+biplot(prcomp(data2), cex=.8, xlabs=labels) #plotting outliers
+
+pch <- rep(".", 3)
+pch[outliers] <- "+"
+col <- rep("black", n)
+col[outliers] <- "red"
+#data2 <- scale(data2)
+dev.new(width=5, height=4)
+pairs(data2, pch=pch, col=col)
+
+#' # A pie chart = stacked bar chart + polar coordinates
+dev.new(width=5, height=4)
+pie <- ggplot(data2, aes(x = factor(1), fill = factor(cart_time))) +
+  geom_bar(width = 1)
+pie + coord_polar(theta = "y")
+
+dev.new(width=5, height=4)
+pairs(data2[,1:2], col = df$Course_Id)
+
+install.packages("Rlof")
+library(Rlof)
+outlier.scores <- lof(data2, k=5)
+# try with different number of neighbors (k = 5,6,7,8,9 and 10)
+outlier.scores <- lof(data2, k=c(1:10))
+
+dev.new(width=5, height=4)
+chart.Correlation(data2[,1:5],col=df$KPI_Score)
+
+#================================================================================
+
+duration = faithful$eruptions      # the eruption durations 
+waiting = faithful$waiting         # the waiting interval 
+head(cbind(df[,1:5], df[,38:42])) 
+plot(df[,1:5], df[,38:42],   xlab="Eruption duration",   ylab="Time waited")
+
+write.arff(df, file="q1.arff", eol = "\n", relation = deparse(substitute(x)))
+#================================================================================
+
+# Prepare Data
+df <- read.csv("~/workspace/LTB-Warehouse/datars.csv")
+#df <- na.omit(df) # listwise deletion of missing
+#df[1:4] <- list(NULL)  # Marek
+data <- df[ -c(5, 7, 12:13, 18:19, 20:31) ]
+mydf<- scale(data[-c(3,8,12,15)]) # standardize variables
+
+df <- mydf
+# K-Means Cluster Analysis
+fit <- kmeans(df, 2) # 5 cluster solution
+# get cluster means 
+aggregate(df,by=list(fit$cluster),FUN=mean)
+# append cluster assignment
+df <- data.frame(df, fit$cluster)
+
+# Determine number of clusters
+wss <- (nrow(df)-1)*sum(apply(df,2,var))
+for (i in 2:15) wss[i] <- sum(kmeans(df, 
+                                     centers=i)$withinss)
+dev.new(width=5, height=4)
+plot(1:15, wss, type="b", xlab="Number of Clusters",
+     ylab="Within groups sum of squares")
+
+
+#CLUSTERING USING K-MEAN
+data(df)
+head(df)
+
+#head(model.matrix(~.+0, data=df))
+
+# K-Means Clustering with 2 clusters
+fit <- kmeans(df, 2)
+# Cluster Plot against 1st 2 principal components
+
+# vary parameters for most readable graph
+
+dev.new(width=5, height=4)
+clusplot(df, main="Clustering Oders", fit$cluster, color=TRUE, shade=TRUE, 
+         labels=2, lines=0)
+
+# Centroid Plot against 1st 2 discriminant functions
+dev.new(width=5, height=4)
+plotcluster(df, main="Discrimination Function - 2 Cluster Solution", sub="Centroid Plot Against Discriminant Functions", ylab="Discriminant Function 1", xlab= "Descriminant Function 2", fit$cluster)
+
+dev.new(width=5, height=4)
+clusplot(data[-c(3,8,12,15)], main="Clustering Oders", fit$cluster, color=TRUE, shade=TRUE, 
+         labels=2, lines=0)
+
+# Centroid Plot against 1st 2 discriminant functions
+dev.new(width=5, height=4)
+plotcluster(data[-c(3,8,12,15)], main="Discrimination Function - 2 Cluster Solution", sub="Centroid Plot Against Discriminant Functions", ylab="Discriminant Function 1", xlab= "Descriminant Function 2", fit$cluster)
+
+
+# Model Based Clustering
+#dev.new(width=5, height=4)
+#fit <- Mclust(df)
+#plot(fit) # plot results 
+#summary(fit) # display the best model
+#=========================================================================
+if(!require(devtools)) install.packages("devtools")
+devtools::install_github("kassambara/factoextra")
+
+pkgs <- c("factoextra")
+install.packages("factoextra")
+
+library(factoextra)
+library(cluster)
+library(NbClust)
+
+
+# Load the data
+data(df)
+head(df)
+
+# K-means clustering
+set.seed(123)
+km.res <- kmeans(df, 2, nstart = 25)
+# k-means group number of each observation
+km.res$cluster
+
+# Visualize k-means 
+dev.new(width=5, height=4)
+fviz_cluster(km.res, data = df, geom = "point",
+             stand = FALSE, frame.type = "norm")
+
+
+km.res <- kmeans(data[-c(3,8,12,15)], 2, nstart = 25)
+# k-means group number of each observation
+km.res$cluster
+
+# Visualize k-means 
+dev.new(width=5, height=4)
+fviz_cluster(km.res, data = data[-c(3,8,12,15)], geom = "point",
+             stand = FALSE, frame.type = "norm")
+
+
+
+# Compute pairewise distance matrices
+dist.res <- dist(df, method = "euclidean")
+# Hierarchical clustering results
+#hc <- hclust(dist.res, method = "complete")
+# Visualization of hclust
+#dev.new(width=5, height=4)
+#plot(hc, labels = FALSE, hang = -1)
+# Add rectangle around 3 groups
+#rect.hclust(hc, k = 2, border = 2:4) 
+
+# Cut into 3 groups
+#hc.cut <- cutree(hc, k = 2)
+#head(hc.cut, 20)
+
+set.seed(123)
+# Compute and plot wss for k = 2 to k = 15
+k.max <- 15 # Maximal number of clusters
+data <- df
+wss <- sapply(1:k.max, 
+              function(k){kmeans(data, k, nstart=5 )$tot.withinss})
+
+
+dev.new(width=5, height=4)
+plot(1:k.max, wss,
+     type="b", pch = 19, frame = FALSE, 
+     xlab="Number of clusters K",
+     ylab="Total within-clusters sum of squares")
+abline(v = 2, lty =2)
+
+wss
+
+#fviz_nbclust(df, kmeans, method = "wss") +
+# geom_vline(xintercept = 2, linetype = 2)
+
+
+
+library(cluster)
+k.max <- 5
+data <- df
+sil <- rep(0, k.max)
+
+# Compute the average silhouette width for 
+# k = 2 to k = 5
+for(i in 2:k.max){
+  km.res <- kmeans(data, centers = i, nstart = 5)
+  ss <- silhouette(km.res$cluster, dist(data))
+  sil[i] <- mean(ss[, 3])
+}
+
+# Plot the  average silhouette width
+dev.new(width=5, height=4)
+plot(1:k.max, sil, type = "b", pch = 19, 
+     frame = FALSE, xlab = "Number of clusters k")
+abline(v = which.max(sil), lty = 2)
+
+
+
+
+set.seed(123)
+gap_stat <- clusGap(df, FUN = kmeans, nstart = 5,
+                    K.max = 5, B = 5)
+
+# Print the result
+print(gap_stat, method = "firstmax")
+
+
+
+
+# Base plot of gap statistic
+dev.new(width=5, height=4)
+plot(gap_stat, frame = FALSE, xlab = "Number of clusters k")
+abline(v = 3, lty = 2)
+
+
+set.seed(123)
+res.nb <- NbClust(df, distance = "euclidean",
+                  min.nc = 2, max.nc = 10, 
+                  method = "complete", index ="gap") 
+res.nb # print the results
+
+
+
+
+#=========================================================================
+data(df, package="rattle")
+head(df)
+#df <- scale(df[-1])  
+
+wssplot<-(df)   
+
+set.seed(1234)
+nc <- NbClust(df, min.nc=2, max.nc=5, method="kmeans")
+table(nc$Best.n[1,])
+
+dev.new(width=5, height=4)
+barplot(table(nc$Best.n[1,]),
+        xlab="Numer of Clusters", ylab="Number of Criteria",
+        main="Number of Clusters Chosen by 26 Criteria")
+
+set.seed(1234)
+fit.km <- kmeans(df, 2, nstart=25)    
+fit.km$size
+fit.km$centers
+aggregate(df, by=list(cluster=fit.km$cluster), mean)
+
+# Ward Hierarchical Clustering with Bootstrapped p values
+
+fit <- pvclust(df, method.hclust="ward",
+               method.dist="euclidean")
+
+dev.new(width=5, height=4)
+plot(fit) # dendogram with p values
+# add rectangles around groups highly supported by the data
+pvrect(fit, alpha=.95)
+
+#png(file="HClustering1.png",width=1100,height=1050,res=100)
+dev.new(width=5, height=4)
+plot(fit, main="Hierarchical Clustering")
+#text(fit, lab=row.names(fit))
+pvrect(fit, alpha=.95)
+dev.off()
+
+
+#================================================================
+df.use = data[-c(3,8,12,15)]
+df.use <- df.use[-c(1,4, 5, 8, 11)]
+medians = apply(df.use,2,median)
+mads = apply(df.use,2,mad)
+df.use = scale(df.use,center=medians,scale=mads)
+dev.new(width=5, height=4)
+plot(df.use)
+dev.new(width=5, height=4)
+plot(mads)
+dev.new(width=5, height=4)
+plot(medians)
+#dev.new(width=5, height=4)
+df.dist = dist(df.use)
+#plot(df.dist)
+#-----------------------------
+df.hclust = hclust(df.dist)
+## hclust with t()
+#hc <- hclust(as.dist(1-cor(t(df.dist))))
+dev.new(width=5, height=4)
+plot(df.hclust,labels=df$Avg_kLevel,main='Default from hclust')
+
+png(file="HClustering.png",width=1100,height=1050,res=100)
+
+dev.new(width=5, height=4)
+plot(df.hclust,labels=df$Avg_kLevel,main='Default from hclust')
+#text(fit, lab=row.names(fit))
+pvrect(fit, alpha=.95)
+dev.off()
+#=================================================================
+groups.2 = cutree(df.hclust,2)
+table(groups.2)
+plot(groups.2)
+
+df$Avg_kLevel[groups.2 == 1]
+
+df.pam = pam(df.dist,2)
+table(groups.2,df.pam$clustering)
+
+dev.new(width=5, height=4)
+plot(df.pam)
+
+dev.new(width=5, height=4)
+plot(silhouette(cutree(df.hclust,2),df.dist))
+
+dev.new(width=5, height=4)
+splom(~df,groups=df$Avg_kLevel,auto.key=TRUE)
+
+#=================================================================================
+# Classification Tree with rpart
+
+# Prepare Data
+df <- read.csv("~/workspace/LTB-Warehouse/datars.csv")
+#df <- na.omit(df) # listwise deletion of missing
+#df[1:4] <- list(NULL)  # Marek
+data <- df[ -c(3, 5, 7,10:13,16:18, 20:31) ]
+#mydf<- scale(data[-c(3,4)]) # standardize variables
+mydf <- data.frame(lapply(data[-c(3,4,11)], function(x) if(is.numeric(x)){ scale(x, center=TRUE, scale=TRUE) } else x)) 
+
+df <- mydf
+#==========================================================================
+library(rpart)
+# grow tree - DECISION TREE
+fit <- rpart(order_priority ~ ., method="class", data= data)
+
+printcp(fit) # display the results 
+
+dev.new(width=5, height=4)
+plotcp(fit) # visualize cross-validation results 
+summary(fit) # detailed summary of splits
+
+# plot tree 
+dev.new(width=5, height=4)
+plot(fit, uniform=TRUE, 
+     main="Classification Tree for Kyphosis")
+text(fit, use.n=FALSE, all=TRUE, cex=.8)
+
+# create attractive postscript plot of tree 
+#==============================================================================
+
+# Regression Tree Example
+library(rpart)				 # Popular decision tree algorithm
+library(rattle)					# Fancy tree plot
+library(rpart.plot)				# Enhanced tree plots
+library(RColorBrewer)				# Color selection for fancy tree plot
+library(party)					# Alternative decision tree algorithm
+library(partykit)				# Convert rpart object to BinaryTree
+library(caret)					# Just a data source for this script
+
+
+### regression - ANSWERS
+users <- subset(data, !is.na(cart_time))
+usersct <- ctree(cart_time ~ om + od   + order_priority, data = users)
+usersct
+
+dev.new(width=5, height=4)
+plot(usersct, main="Orders Classification through Regression")
+mean((users$cart_time - predict(usersct))^2)
+
+### classification - ANSWERS
+usrsct <- ctree(order_priority ~ om + od + sm + sd + cart_timer,data = data)
+usrsct
+dev.new(width=5, height=4)
+plot(usrsct, main="Users Classification Regression Tree")
+table(predict(usersct), data$cart_time + data$order_priority)
+
+### estimated class probabilities, a list - ANSWERS
+tr <- predict(usersct, newdata = mydf, type = "prob")
+
+### multivariate responses - ANSWERS
+usrsct2 <- ctree(cart_time + order_priority~ ., data = users)
+usrsct2
+dev.new(width=5, height=4)
+plot(usrsct2)
+#====================================================================
+# grow tree  - DECISION TREE
+fit <- rpart(order_priority ~ om + od + sm + sd + order_customer + cart_time, 
+             method="anova", data=data)
+
+printcp(fit) # display the results 
+dev.new(width=5, height=4)
+plotcp(fit) # visualize cross-validation results 
+
+plot(fit, uniform=TRUE, 
+     main="Regression Tree for Users ")
+text(fit, use.n=FALSE, all=TRUE, cex=.8)
+summary(fit) # detailed summary of splits
+
+dev.new(width=5, height=4)
+fancyRpartPlot(fit)
+# create additional plots 
+par(mfrow=c(1,2)) # two plots on one page 
+rsq.rpart(fit) # visualize cross-validation results  	
+
+# plot tree 
+dev.new(width=5, height=4)
+plot(fit, uniform=TRUE, 
+     main="Regression Tree for Users ")
+text(fit, use.n=FALSE, all=TRUE, cex=.8)
+
+fancyRpartPlot(fit)
+pfit<- prune(fit, cp=0.01160389) # from cptable   
+
+
+# plot the pruned tree 
+dev.new(width=5, height=4)
+plot(pfit, uniform=TRUE, 
+     main="Pruned Regression Tree for Users")
+text(pfit, use.n=FALSE, all=TRUE, cex=.8)
+# create attractive postcript plot of tree 
+fancyRpartPlot(fit)
+#====================================================
+
+
+#=====================================================================
+# Conditional Inference Tree for Users - DECISION TREE
+library(party)
+fit2 <- ctree(cart_time + order_priority ~ om + od + sm + sd + order_customer., 
+              data=na.omit(data))
+# plot tree 
+dev.new(width=5, height=4)
+plot(fit2, uniform=TRUE, 
+     main="Classifying through Regression Tree for Users")
+text(fit2, use.n=FALSE, all=TRUE, cex=.8)
+# prune the tree 
+pfit<- prune(fit2, cp=0.01160389) # from cptable   
+
+
+# plot the pruned tree 
+dev.new(width=5, height=4)
+plot(pfit, uniform=TRUE, 
+     main="Pruned Users Classification")
+text(pfit, use.n=FALSE, all=TRUE, cex=.8)
+#=======================================================================
+# Conditional Inference Tree for Users - DECISION TREE
+library(party)
+fit2 <- ctree(order_priority ~ om + od + oy + order_time + cart_time,
+              data=na.omit(data))
+
+
+dev.new(width=5, height=4)
+plot(fit2, main="Conditional Inference Tree - Users KPIs Performance")
+text(fit2, use.n=FALSE, all=TRUE, cex=.8)
+#=====================================================================
+library(randomForest)
+# Random Forest prediction of Users - DECISION TREE
+fit <- randomForest(cart_time + order_priority ~ om + od + sm + sd + ppm + ppd + order_customer,   data=data)
+print(fit) # view results 
+importance(fit) # importance of each predictor
+dev.new(width=5, height=4)
+plot(fit)
+
+#================================================================================
+#DATA EXPLORATION
+library(ggvis)
+
+df <- read.csv("~/workspace/LTB-Warehouse/datars.csv")
+df %>% ggvis(~order_id, ~order_id, fill = ~cart_time) %>% layer_points()
+df %>% ggvis(~order_id, ~item_location, fill = ~cart_time) %>% layer_points()
+df %>% ggvis(~Avg_KPI, ~Avg_kLevel, fill = ~Year) %>% layer_points()
+df %>% ggvis(~Year, ~Take_uTime_Avg, fill = ~Avg_kLevel) %>% layer_points()
+df %>% ggvis(~Year, ~Avg_KPI, fill = ~Avg_kLevel) %>% layer_points()
+df %>% ggvis(~Avg_KPI, ~Avg_kLevel, fill = ~Take_uTime_Avg) %>% layer_points()
+
+
+df %>% ggvis(~Avg_KPI, ~Take_uTime_Avg, fill = ~Dept_Name) %>% layer_points()
+df %>% ggvis(~Avg_kLevel, ~Take_uTime_Avg, fill = ~Dept_Name) %>% layer_points()
+df %>% ggvis(~Dept_Name, ~Avg_kLevel, fill = ~Year) %>% layer_points()
+df %>% ggvis(~Year, ~Take_uTime_Avg, fill = ~Dept_Name) %>% layer_points()
+df %>% ggvis(~Year, ~Avg_KPI, fill = ~Dept_Name) %>% layer_points()
+df %>% ggvis(~Avg_KPI, ~Avg_kLevel, fill = ~Dept_Name) %>% layer_points()
+#================================================================================
+#KNN CLASSIFICATION 
+
+#NORMALIZING
+normalize <- function(x) {
+  num <- x - min(x)
+  denom <- max(x) - min(x)
+  return (num/denom)
+}
+
+YourNormalizedDataSet <- as.data.frame(lapply(data, normalize))
+df_norm <- as.data.frame(lapply(YourNormalizedDataSet, normalize))
+summary(YourNormalizedDataSet)
+set.seed(1234)
+
+dev.new(width=5, height=4)
+plot(df_norm)
+df_norm %>% ggvis(~Avg_KPI, ~Avg_kLevel, fill = ~Take_uTime_Avg) %>% layer_points()
+
+#TRAINING & TESTING
+ind <- sample(2, nrow(data), replace=TRUE, prob=c(0.67, 0.33))
+df.training <- data[ind==1, 1:11]
+df.test <- data[ind==2, 1:11]
+
+df.trainLabels <- data[ind==1, 10]
+df.testLabels <- data[ind==2, 10]
+
+dev.new(width=5, height=4)
+plot(df.training)
+
+dev.new(width=5, height=4)
+plot(df.test)
+
+#IMPLEMENTING KNN
+library(class)
+df_pred <- knn(train = df.training, test = df.test, cl = df.trainLabels, k=2)
+
+df_pred
+dev.new(width=5, height=4)
+plot(df_pred)
+
+library(gmodels)
+CrossTable(x = df.trainLabels, y = df_pred, prop.chisq=FALSE)
+#=======================================================================================
+#NEURAL NETWORK CLASSIFICATION - NNET
+library(nnet)
+mod1 <- nnet(order_priority ~ ., data=data, size=2)
+dev.new(width=5, height=4)
+plot(mod1)
+
+mod2 <- nnet(order_priority ~ ., data=data, size=2, decay=5e-4, maxit=200)
+dev.new(width=5, height=4)
+plot(mod2)
+
+mod1 <- nnet(cart_time ~ ., data=data, size=2)
+dev.new(width=5, height=4)
+plot(mod1)
+
+mod2 <- nnet(cart_time~ ., data=data, size=2, decay=5e-4, maxit=200)
+dev.new(width=5, height=4)
+plot(mod2)
+
+mod12 <- nnet(cart_time + order_priority ~ ., data=data, size=2, decay=5e-4, maxit=200)
+dev.new(width=5, height=4)
+plot(mod12)
+#========================================================================
+#CLASSIFICATION WITH SVM 
+
+library("e1071")
+attach(data)
+
+x <- subset(data, select=-cart_time)
+y <- cart_time
+
+svm_model <- svm(cart_time + order_priority ~ om + od + sm + sd + ppm + ppd + order_customer, data=data)
+summary(svm_model)
+
+svm_model1 <- svm(x,y)
+summary(svm_model1)
+
+pred <- predict(svm_model1,x)
+
+dev.new(width=5, height=4)
+plot(pred, main="Prediction Model for Orders")
+
+system.time(pred <- predict(svm_model1,x))
+
+table(pred,y)
+
+svm_tune <- tune(svm, train.x=x, train.y=y, 
+                 kernel="radial", ranges=list(cost=10^(-1:2), gamma=c(.5,1,2)))
+
+print(svm_tune)
+
+
+svm_model_after_tune <- svm(User_Id ~ ., data=df, kernel="radial", cost=1, gamma=0.5)
+summary(svm_model_after_tune)
+
+pred <- predict(svm_model_after_tune,x)
+system.time(predict(svm_model_after_tune,x))
+
+table(pred,y)
+
+#=======================================================================================================
+#KNN IMPLEMENTATION
+
+prc <- read.csv("C:/Users/Piter Garcia/workspace/Impactly/quarter1_datao.csv", stringsAsFactors = FALSE)   
+#This command imports the required data set and saves it to the prc data frame.
+prc$X <- NULL
+str(prc)    #We use this command to see whether the data is structured or not.
+prc <- prc[-2]  #removes the first variable(id) from the data set.
+table(prc$User_Name)  # it helps us to get the numbers of patients
+round(prop.table(table(prc$Avg_kLevel)) * 100, digits = 1) 
+# it gives the result in the percentage form rounded of to 1 decimal place( and so it's digits = 1)
+
+normalize <- function(x) {
+  return ((x - min(x)) / (max(x) - min(x))) }
+
+prc_n <- as.data.frame(lapply(data, normalize))
+
+summary(prc_n$cart_time)
+
+prc_n %>% ggvis(~Avg_KPI, ~Avg_kLevel,fill = ~Take_uTime_Avg) %>% layer_points()
+prc %>% ggvis(~Dept_Name, ~Avg_KPI, fill = ~Avg_kLevel) %>% layer_points()
+
+prc_train <- prc_n[-c(3,8,12,15)][1:65,]
+prc_test <- prc_n[-c(3,8,12,15)][66:100,]
+dev.new(width=5, height=4)
+plot(prc_test)
+dev.new(width=5, height=4)
+plot(prc_train)
+
+prc_train %>% ggvis(~Avg_KPI, ~Avg_kLevel,fill = ~Take_uTime_Avg) %>% layer_points()
+prc_test %>% ggvis(~Avg_KPI, ~Avg_kLevel,fill = ~Take_uTime_Avg) %>% layer_points()
+
+prc_train_labels <- prc[1:65, 1]
+prc_test_labels <- prc[66:100, 2]   
+#This code takes the diagnosis factor in column 1 of the prc data frame and on turn creates prc_train_labels and prc_test_labels data frame.
+
+library(class)
+prc_test_pred <- knn(train = prc_train, test = prc_test,cl = prc_train_labels, k=10)
+
+library(gmodels)
+CrossTable(x = prc_test_labels, y = prc_test_pred , prop.chisq=FALSE)
+#=======================================================================================================
+
+require(graphics)
+
+## Annette Dobson (1990) "An Introduction to Generalized Linear Models".
+## Page 9: Plant Weight Data.
+ctl <- df[1]
+trt <- df[7]
+group <- gl(2, 10, 20, labels = c("Ctl","Trt"))
+weight <- c(ctl, trt)
+lm.D9 <- lm(weight ~ group)
+lm.D90 <- lm(weight ~ group - 1) # omitting intercept
+
+anova(lm.D9)
+summary(lm.D90)
+
+opar <- par(mfrow = c(2,2), oma = c(0, 0, 1.1, 0))
+plot(lm.D9, las = 1)      # Residuals, Fitted, ...
+par(opar)
+
+
+
+
+
+
+
+install.packages("clusterGeneration")
+#=================================================================================
+# Classification Tree with rpart
+
+# Prepare Data
+df <- read.csv("~/workspace/LTB-Warehouse/datars.csv")
+#df <- na.omit(df) # listwise deletion of missing
+#df[1:4] <- list(NULL)  # Marek
+data <- df[ -c(5, 7, 12:13, 18:19, 20:31) ]
+mydf<- scale(data[-c(3,8,12,15)]) # standardize variables
+
+df <- mydf
+
+library(clusterGeneration)
+
+seed.val<-2
+set.seed(seed.val)
+
+num.vars<-100
+num.obs<-mydf[1:100,]
+
+#input variables
+cov.mat<-genPositiveDefMat(num.vars,covMethod=c("unifcorrmat"))$Sigma
+rand.vars<-mvrnorm(num.obs,rep(0,num.vars),Sigma=cov.mat)
+
+#output variables
+parms<-runif(num.vars,-10,10)
+y1<-rand.vars %*% matrix(parms) + rnorm(num.obs,sd=20)
+parms2<-runif(num.vars,-10,10)
+y2<-rand.vars %*% matrix(parms2) + rnorm(num.obs,sd=20)
+
+#final datasets
+rand.vars<-data.frame(rand.vars)
+resp<-data.frame(y1,y2)
+names(resp)<-c('Y1','Y2')
+dat.in<-data.frame(resp,rand.vars)
+
+#nnet function from nnet package
+library(nnet)
+set.seed(seed.val)
+mod1<-nnet(rand.vars,resp,data=data.in,size=10,linout=T)
+plot(mod1)
+#neuralnet function from neuralnet package, notice use of only one response
+library(neuralnet)
+form.in<-as.formula('Y1~X1+X2+X3+X4+X5+X6+X7+X8')
+set.seed(seed.val)
+mod2<-neuralnet(form.in,data=data.in,hidden=10)
+plot(mode1)
+#mlp function from RSNNS package
+library(RSNNS)
+set.seed(seed.val)
+mod3<-mlp(data, resp, size=10,linOut=T)
+
+df <- scale(df)
+df[,40:41]
+rand.vars
+
+#import the function from Github
+library(devtools)
+source_url('https://gist.githubusercontent.com/fawda123/7471137/raw/466c1474d0a505ff044412703516c34f1a4684a5/nnet_plot_update.r')
+
+#plot each model
+plot.nnet(mod1)
+plot.nnet(mod2)
+plot.nnet(mod3)
+
+
+wts.in<-mod1$wts
+struct<-mod1$n
+plot.nnet(wts.in,struct=struct)
+
+
+mod.in<-c(13.12,1.49,0.16,-0.11,-0.19,-0.16,0.56,-0.52,0.81)
+struct<-c(2,2,1) #two inputs, two hidden, one output 
+plot.nnet(mydf,struct=struct)
+
+mod4<-train(cart_time~.,method='nnet',data=df.in,linout=T)
+plot.nnet(mod4,nid=T)
+
+fact<-factor(sample(c('a','b','c'),size=num.obs,replace=T))
+form.in<-formula('cbind(Y2,Y1)~X1+X2+X3+fact')
+mod5<-nnet(form.in,data=cbind(dat.in,fact),size=10,linout=T)
+plot.nnet(mod5,nid=T)
+
+library(RSNNS)
+
+#neural net with three hidden layers, 9, 11, and 8 nodes in each
+mod<-mlp(rand.vars, resp, size=c(9,11,8),linOut=T)
+par(mar=numeric(4),family='serif')
+plot.nnet(mod)
+
+
+
+library(neuralnet)
+
+#response
+AND<-c(rep(0,7),1)
+OR<-c(0,rep(1,7))
+
+#response with predictors
+binary.data<-data.frame(expand.grid(c(0,1),c(0,1),c(0,1)),AND,OR)
+
+#model
+net<-neuralnet(AND+OR~order_priority ~ ., binary.data,hidden=c(6,12,8),rep=10,err.fct="ce",linear.output=FALSE)
+
+#plot ouput
+par(mar=numeric(4),family='serif')
+plot.nnet(net)
+
+
+
+
+
+
+
+library("nnet")
+
+library(neuralnet)
+str(data)
+summary(data)
+
+m <- model.matrix( 
+  ~ ppm + ppd + pptime + om + od + sm + sd + order_priority + cart_time, 
+  data = data 
+)
+head(m)
+library(neuralnet)
+r <- neuralnet( 
+  cart_time ~ ppm + ppd + pptime + om + od + sm + sd  + order_priority, 
+  data=m, hidden=c(5,3), threshold=0.01
+)
+
+plot(r)
+r$net.result
+plot(r$result.matrix)
+
+
+n <- names(data)
+f <- as.formula(paste("cart_time ~", paste(n[!n %in% "cart_time"], collapse = " + ")))
+nn <- neuralnet(f,data=train_,hidden=c(5,3),linear.output=T)
+
+
+model <- nnet(cart_time ~ .,size=2, hidden=c(6,12,8),data=data)
+dev.new(width=5, height=4)
+plot(model)
+plot.nnet(model)
+
+
+model2 <- nnet(cart_time + order_priority ~ ., data=df, size=2, decay=5e-4, maxit=200)
+dev.new(width=5, height=4)
+plot(model2)
+
+ann <- nnet(cart_time ~ ., data=data, size=2, rang=(1/max(data[,-c(1,2)])), decay=5e-4, maxit=200)
+dev.new(width=5, height=4)
+plot(ann)
+
+seedstrain<- df(1:210,147)
+
+
+set.seed(500)
+library(MASS)
+
+apply(df,2,function(x) sum(is.na(x)))
+
+
+index <- sample(1:nrow(data),round(0.75*nrow(data)))
+train <- data[index,]
+test <- data[-index,]
+lm.fit <- glm(cart_time~ om + od + order_customer + order_priority, data=train)
+summary(lm.fit)
+pr.lm <- predict(lm.fit,train)
+MSE.lm <- sum((pr.lm - test$medv)^2)/nrow(test)
+
+maxs <- apply(data, 2, max) 
+mins <- apply(data, 2, min)
+
+scaled <- as.data.frame(data)
+
+train_ <- scaled[index,]
+test_ <- scaled[-index,]
+
+library(neuralnet)
+n <- names(train_)
+f <- as.formula(paste("cart_time ~", paste(n[!n %in% "cart_time"], collapse = " + ")))
+nn <- neuralnet(f,data=train_,hidden=c(5,3),linear.output=T)
+
+plot(nn)
+
+#example showing use of separate colors for input layer
+#color based on relative importance using 'gar.fun'
+
+##
+#create input data
+seed.val<-3
+set.seed(seed.val)
+
+num.vars<-8
+num.obs<-1000
+
+#input variables
+library(clusterGeneration)
+cov.mat<-genPositiveDefMat(num.vars,covMethod=c("unifcorrmat"))$Sigma
+rand.vars<-mvrnorm(num.obs,rep(0,num.vars),Sigma=cov.mat)
+
+#output variables
+parms<-runif(num.vars,-10,10)
+y1<-rand.vars %*% matrix(parms) + rnorm(num.obs,sd=20)
+
+#final datasets
+rand.vars<-data.frame(rand.vars)
+resp<-data.frame(y1)
+names(resp)<-'Y1'
+dat.in<-data.frame(resp,rand.vars)
+
+##
+#create model
+library(nnet)
+mod1<-nnet(rand.vars,resp,data=data.in,size=10,linout=T)
+plot(mod1)
+##
+#relative importance function
+library(devtools)
+source_url('https://gist.github.com/fawda123/6206737/raw/2e1bc9cbc48d1a56d2a79dd1d33f414213f5f1b1/gar_fun.r')
+
+#relative importance of input variables for Y1
+rel.imp<-gar.fun('Y1',mod1,bar.plot=F)$rel.imp
+
+#color vector based on relative importance of input values
+cols<-colorRampPalette(c('green','red'))(num.vars)[rank(rel.imp)]
+
+##
+#plotting function
+source_url('https://gist.githubusercontent.com/fawda123/7471137/raw/466c1474d0a505ff044412703516c34f1a4684a5/nnet_plot_update.r')
+
+#plot model with new color vector
+#separate colors for input vectors using a list for 'circle.col'
+plot(mod1,circle.col=list(cols,'lightblue'))
+
+
+
+
+
+
+require(clusterGeneration)
+require(nnet)
+
+#define number of variables and observations
+set.seed(2)
+num.vars<-8
+num.obs<-10000
+
+#define correlation matrix for explanatory variables 
+#define actual parameter values
+cov.mat<-genPositiveDefMat(num.vars,covMethod=c("unifcorrmat"))$Sigma
+rand.vars<-mvrnorm(num.obs,rep(0,num.vars),Sigma=cov.mat)
+parms1<-runif(num.vars,-10,10)
+y1<-rand.vars %*% matrix(parms1) + rnorm(num.obs,sd=20)
+parms2<-runif(num.vars,-10,10)
+y2<-rand.vars %*% matrix(parms2) + rnorm(num.obs,sd=20)
+
+#prep data and create neural network
+rand.vars<-data.frame(rand.vars)
+resp<-apply(cbind(y1,y2),2, function(y) (y-min(y))/(max(y)-min(y)))
+resp<-data.frame(resp)
+names(resp)<-c('Y1','Y2')
+mod1<-nnet(mydf,data[c(5,14,15)],size=8,linout=T)
+
+
+
+
+
+source('https://gist.githubusercontent.com/fawda123/6860630/raw/b8bf4a6c88d6b392b1bfa6ef24759ae98f31877c/lek_fun.r')
+lek.fun(mod1)
+
+
+lek.fun(mod1,var.sens=c('X2','X5'),split.vals=seq(0,1,by=0.05))
+
+
+p1<-lek.fun(mod2)
+class(p1)
+# [1] "gg"     "ggplot"
+
+p1 + 
+  theme_bw() +
+  scale_colour_brewer(palette="PuBu") +
+  scale_linetype_manual(values=rep('dashed',6)) +
+  scale_size_manual(values=rep(1,6))
+
+
+
+
+head(lek.fun(mod1,val.out=T))
+
+#   Explanatory resp.name  Response Splits exp.name
+# 1   -9.825388        Y1 0.4285857      0       X1
+# 2   -9.634531        Y1 0.4289905      0       X1
+# 3   -9.443674        Y1 0.4293973      0       X1
+# 4   -9.252816        Y1 0.4298058      0       X1
+# 5   -9.061959        Y1 0.4302162      0       X1
+# 6   -8.871102        Y1 0.4306284      0       X1
+
+
+
+mod2<-lm(Y1~.,data=cbind(resp[,'Y1',drop=F],rand.vars))
+lek.fun(mod2)
+
+
+
+
+
+require(clusterGeneration)
+require(RSNNS)
+require(devtools)
+
+#define number of variables and observations
+set.seed(2)
+num.vars<-8
+num.obs<-10000
+
+#define correlation matrix for explanatory variables 
+#define actual parameter values
+cov.mat<-genPositiveDefMat(num.vars,covMethod=c("unifcorrmat"))$Sigma
+rand.vars<-mvrnorm(num.obs,rep(0,num.vars),Sigma=cov.mat)
+parms1<-runif(num.vars,-10,10)
+y1<-rand.vars %*% matrix(parms1) + rnorm(num.obs,sd=20)
+parms2<-runif(num.vars,-10,10)
+y2<-rand.vars %*% matrix(parms2) + rnorm(num.obs,sd=20)
+
+#prep data and create neural network
+rand.vars<-data.frame(rand.vars)
+resp<-apply(cbind(y1,y2),2, function(y) (y-min(y))/(max(y)-min(y)))
+resp<-data.frame(resp)
+names(resp)<-c('Y1','Y2')
+
+#create neural network model
+mod2<-mlp(mydf,data[c(5,14,15)],size=8,linOut=T)
+
+#import sensitivity analysis function
+source_url('https://gist.githubusercontent.com/fawda123/6860630/raw/b8bf4a6c88d6b392b1bfa6ef24759ae98f31877c/lek_fun.r')
+
+#sensitivity analsyis, note 'exp.in' argument
+lek.fun(mod2,exp.in=mydf)
+
+
+
+
+
+obs<-100
+x<-runif(mydf,0,100)
+y<-x^2+rnorm(data,0,800)
+
+require(scales)
+
+#examples with span
+par(mfrow=c(2,2),mar=c(4,4,0.5,0.5),family='serif')
+span<-round(seq(0.5,0.1,length=4),2)
+for(i in span){
+  plot(x,y,bty="n",pch=19,cex=1.5,col=alpha('black',0.7),cex.lab=1.5)
+  mod<-loess(y~x,span=i,control = loess.control(surface = "direct"))
+  pred.vals<-predict(mod,data.frame(x = seq(min(x),max(x),length=500)))
+  lines(seq(min(x),max(x),length=500),pred.vals,lwd=2,col="red")
+  rmse.val<-round(sqrt(sum(mod$resid^2)/obs))
+  text(0,max(y),paste("\nspan",i,'\nRMSE',rmse.val),adj=0)
+}
+
+
+require(clusterGeneration)
+require(nnet)
+
+set.seed(2)
+num.vars<-8
+num.obs<-1000
+
+#arbitrary correlation matrix and random variables
+cov.mat<-genPositiveDefMat(num.vars,covMethod=c("unifcorrmat"))$Sigma
+rand.vars<-mvrnorm(num.obs,rep(0,num.vars),Sigma=cov.mat)
+parms<-runif(num.vars,-10,10)
+
+#response variable as linear combination of random variables and random error term
+y<-rand.vars %*% matrix(parms) + rnorm(num.obs,sd=20)
+
+#prepare data for use with nnet and plot.nnet
+rand.vars<-data.frame(rand.vars)
+y<-data.frame((y-min(y))/(max(y)-min(y)))
+names(y)<-'y'
+
+
+require(devtools)
+source_gist('5086859') #loaded as 'plot.nnet' in the workspace
+
+
+
+#get vector of T/F that is used to subset data for training
+set.seed(3) 
+train.dat<-rep(F,num.obs)
+train.dat[sample(num.obs,600)]<-T
+
+num.it<-100 #number of training iterations
+
+err.dat<-matrix(ncol=2,nrow=num.it) #object for appending errors
+
+for(i in 1:num.it){
+  
+  #to monitor progress
+  cat(i,'\n') 
+  flush.console()
+  
+  #to ensure same set of random starting weights are used each time
+  set.seed(5)
+  
+  #temporary nnet model
+  mod.tmp<-nnet(rand.vars[train.dat,],y[train.dat,],size=10,linout=T,maxit=i,trace=F)
+  
+  #training and test errors
+  train.err<-sqrt(mod.tmp$value/sum(train.dat))
+  test.pred<-predict(mod.tmp,newdata=rand.vars[!train.dat,])
+  test.err<-sqrt(sum((test.pred-y[!train.dat,])^2)/sum(!train.dat))
+  
+  #append error after each iteration
+  err.dat[i,]<-c(train.err,test.err)
+  
+}
+
+
+
+
+
+
+
+
+
+#make animation
+require(animation)
+
+num.it<-100
+
+#this vector is needed for proper scaling of weights in the plot 
+max.wt<-0
+for(i in 1:num.it){
+  set.seed(5)
+  mod.tmp<-nnet(rand.vars[mydf,],y[mydf,,drop=F],size=10,linout=T,maxit=i-1,trace=F)
+  if(max(abs(mod.tmp$wts))>max.wt) max.wt<-max(abs(mod.tmp$wts))
+}
+
+ani.options(outdir = 'C:/Users/Marcus/Desktop/') #your local path
+saveHTML(
+  {
+    for(i in 1:num.it){
+      
+      #plot.nnet
+      par(mfrow=c(1,2),mar=c(0,0,1,0),family='serif')
+      set.seed(5)
+      mod.tmp<-nnet(rand.vars[train.dat,],y[train.dat,,drop=F],size=10,linout=T,maxit=i-1,trace=F)
+      rel.rsc.tmp<-1+6*max(abs(mod.tmp$wts))/max(max.wt)    #this vector sets scale for line thickness
+      plot.nnet(mod.tmp,nid=T,rel.rsc=rel.rsc.tmp,alpha.val=0.8,
+                pos.col='darkgreen',neg.col='darkblue',circle.col='brown',xlim=c(0,100))
+      
+      #plot error
+      plot(seq(0,num.it)[c(1:i)],err.dat[,2][c(1:i)],type='l',col='darkgrey',bty='n',ylim=c(-0.1,0.5),
+           xlim=c(-15,num.it+15),axes=F,ylab='RMSE',xlab='Iteration',lwd=2,cex.lab=1.3)
+      axis(side=1,at=seq(0,num.it,length=5),line=-4)
+      mtext(side=1,'Iteration',line=-2)
+      axis(side=2,at=c(seq(0,0.4,length=5)),line=-3)
+      mtext(side=2,'RMSE',line=-1)
+      lines(seq(0,num.it)[c(1:i)],err.dat[c(1:i),1],type='l',col='red',lwd=2)
+      lines(seq(0,num.it)[c(1:i)],err.dat[c(1:i),2],type='l',col='green',lwd=2)
+      
+      title(paste('Iteration',i,'of',num.it),outer=T,line=-2)
+    }
+  },
+  
+  interval = 0.15, ani.width = 700, ani.height = 350, ani.opts='controls'
+  
+)
+
+
+
+
+
+
+
+#make animations, pred vs obs
+require(ggplot2)
+
+#create color scheme for group points, overrides default for ggplot
+myColors<-c('red','green')
+names(myColors)<-c('training','test')
+colScale<-scale_colour_manual(name = "grps",values = myColors)
+
+#function for getting rmse of prediction, used to plot text
+rmse.fun<-function(dat.in,sub.in)
+  format(sqrt(sum((dat.in[sub.in,]-y[sub.in,])^2)/sum(sub.in)),nsmall=4,digits=4)
+
+options(outdir = 'C:/Users/Marcus/Desktop/') #your local path
+saveHTML(
+  {
+    for(i in 1:num.it){
+      
+      #temporary nnet mod for the loop
+      mod.tmp<-nnet(rand.vars[train.dat,],y[train.dat,,drop=F],size=10,linout=T,maxit=i,trace=F)
+      
+      #predicted values and factor variable defining training and test datasets
+      pred.vals<-predict(mod.tmp,new=rand.vars)   
+      sub.fac<-rep('test',length=num.obs)
+      sub.fac[train.dat]<-'training'
+      sub.fac<-factor(sub.fac,c('training','test'))
+      
+      #data frame to plot
+      plot.tmp<-data.frame(cbind(sub.fac,pred.vals,y))
+      names(plot.tmp)<-c('Group','Predicted','Observed')
+      
+      #plot title
+      title.val<-paste('Iteration',i,'of',num.it)  
+      
+      #RMSE of prediction, used for plot text, called using geom_text in ggplot
+      rmse.val<-data.frame(
+        Group=factor(levels(sub.fac),c('training','test')),
+        rmse=paste('rmse =',c(rmse.fun(pred.vals,train.dat),rmse.fun(pred.vals,!train.dat))),
+        x.val=rep(0.9,2),
+        y.val=rep(0.1,2)
+      )
+      
+      #ggplot object
+      p.tmp<-ggplot(data=plot.tmp, aes(x=Observed,y=Predicted,group=Group,colour=Group)) + 
+        geom_abline() +
+        geom_point(size=6,alpha=0.5) +
+        scale_x_continuous(limits=c(0,1)) +
+        scale_y_continuous(limits=c(0,1)) + 
+        facet_grid(.~Group) +
+        theme_bw() +
+        colScale +
+        geom_text(data=rmse.val, aes(x=x.val,y=y.val,label=rmse,group=Group),colour="black",size=4) +
+        ggtitle(title.val) +
+        theme(
+          plot.title=element_text(vjust=2,size=18),
+          legend.position='none'
+        )
+      
+      print(p.tmp)
+      
+    }
+    
+  },
+  
+  interval = 0.15, ani.width = 700, ani.height = 350, ani.opts='controls'
+  
+)
+
+
+
+
+
+
+
+
+
+require(clusterGeneration)
+
+set.seed(2)
+num.vars<-8
+num.obs<-1000
+
+#arbitrary correlation matrix and random variables
+cov.mat<-genPositiveDefMat(num.vars,covMethod=c("unifcorrmat"))$Sigma
+rand.vars<-mvrnorm(num.obs,rep(0,num.vars),Sigma=cov.mat)
+parms<-runif(num.vars,-10,10)
+
+#response variable as linear combination of random variables and random error term
+y<-rand.vars %*% matrix(parms) + rnorm(num.obs,sd=20)
+
+
+
+
+
+require(nnet)
+
+rand.vars<-data.frame(rand.vars)
+y<-data.frame((y-min(y))/(max(y)-min(y)))
+names(y)<-'y'
+
+mod1<-nnet(mydf,data[c(5,14,15)],size=10,linout=T)
+plot(mod1)
+
+
+
+
+#import function from Github
+require(RCurl)
+
+root.url<-'https://gist.githubusercontent.com/fawda123'
+raw.fun<-paste(
+  root.url,
+  '5086859/raw/cc1544804d5027d82b70e74b83b3941cd2184354/nnet_plot_fun.r',
+  sep='/'
+)
+script<-getURL(raw.fun, ssl.verifypeer = FALSE)
+eval(parse(text = script))
+rm('script','raw.fun')
+
+
+par(mar=numeric(4),mfrow=c(1,2),family='serif')
+plot(mod1,nid=F)
+plot(mod1)
+
+
+
+
+#example data and code from nnet function examples
+ir<-rbind(df[,5],df[,14],df[,15])
+targets<-class.ind( c(rep("s", 50), rep("c", 50), rep("v", 50)) )
+samp<-c(sample(1:50,25), sample(51:100,25), sample(101:150,25))
+ir1<-nnet(mydf, data[c(5,14,15)], size = 2, rang = 0.1,decay = 5e-4, maxit = 200)
+
+
+#plot the model with different default values for the arguments
+par(mar=numeric(4),family='serif')
+dev.new(width=5, height=4)
+plot.nnet(ir1,pos.col='darkgreen',neg.col='darkblue',alpha.val=0.7,rel.rsc=15,
+          circle.cex=10,cex=1.4,
+          circle.col='brown')
+
+dev.new(width=5, height=4)
+plot.nnet(ir1,wts.only=T)
+
+dev.new(width=5, height=4)
+plot.nnet(mydf.col='darkgreen',neg.col='darkblue',alpha.val=0.7,rel.rsc=15,
+          circle.cex=10,cex=1.4,circle.col='brown',all.in='Sepal W.',all.out='v')
+
+
+Items-Quantity:
+This attribute can be generated by adding the total number of items in each order.
+
+Orders_No:
+This attribute is the number of orders that were completed (picked and put) in a particular prepared cart.
+
+Item dimension
+Item packed dimension
+
+Shelf attribute empty – the location does not have that characteristic
+OM slow = Order management slow
+Wild inconsistent naming convention
+All locations should have an approximated time to reach it.
+Avoid physical mistaking during replenishment such as replenishing the wrong location.
+There is no system that notifies supervisors, or users in charge, when a location is empty. 
+ 
+
